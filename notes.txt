@@ -1,0 +1,23 @@
+# response = injectScript(driver, 'var all = document.getElementsByTagName("*"); var list = []; for (let element of all) {list.push(element.innerHTML)} return list')
+# print(response)
+# print(injectScript(driver, 'return document.getElementsByTagName("*");'))
+        
+# point = injectScript(driver, '''let element = document.getElementById('aceptaOption:0');
+#                                     let rect = element.getBoundingClientRect();
+#                                     return [(rect.top+rect.bottom)/2, (rect.right+rect.left/2)]'''
+#                                     )
+
+
+function locateElement(ElementId) {
+    let element = document.getElementById(ElementId);
+    let rect = element.getBoundingClientRect();
+    console.log(rect.top, rect.right, rect.bottom, rect.left);
+    return [rect.top/rect.bottom, rect.right/rect.left]
+}
+
+var all = document.getElementsByTagName("*");
+for (let element of all) {
+    console.log(element)
+}
+
+'aceptaOption:0'
