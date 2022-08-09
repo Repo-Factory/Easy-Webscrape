@@ -21,3 +21,56 @@ for (let element of all) {
 }
 
 'aceptaOption:0'
+
+
+
+
+
+
+
+# whatWeKnowWeCanDo1 = getItemsTextByTags(*args_list[0])
+# whatWeKnowWeCanDo2 = getItemsTextByTags(*args_list[1])
+# whatWeKnowWeCanDo3 = getItemsTextByTags(*args_list[2])
+# for arg in args_list:
+#     whatWeKnowWeCanDo4 = getItemsTextByTags(*arg)
+#     for item in whatWeKnowWeCanDo4:
+#         print(item)
+
+# dataFrameTest = getGeneratorsFromTags(*args_list)
+# generator_args_list = []
+# for generator in dataFrameTest:
+#     generator_args_list.append(generator)
+
+# # generatorList = [whatWeKnowWeCanDo1, whatWeKnowWeCanDo2, whatWeKnowWeCanDo3]
+
+# # getZippedList(*generatorList)
+# getZippedList(*generator_args_list)
+
+
+# Yahoo Finance
+# soup = scraperSession.getHTML('https://finance.yahoo.com/most-active')
+# stocks = getObjectsByTag(soup, 'td')
+# categories = filterInfoByAttribute(stocks, 'aria-label')
+# info = getAllInnerText(stocks)
+# data = zip(categories, info)
+# data = list(data)
+# json = createJsonWithDelimiter('Symbol', data)
+# pprint(json)
+# writeToFile(str(json), 'dataFile.txt')
+# writeToFile(str(json), 'dataFile.json')
+
+# Chinese
+# soup = scraperSession.getHTML('http://hanzidb.org/character-list?page=2')
+# characters = getItemsTextByTags(soup, 'tr')
+# info = getAllInnerText(characters)
+# for item in info:
+#     print(item)
+
+# Crypto
+# coins = getItemsTextByTags(soup, 'td', 'aria-label', 'Symbol', False)    
+# names = getItemsTextByTags(soup, 'td', 'aria-label', 'Name', False)
+# prices = getItemsTextByTags(soup, 'td', 'aria-label', 'Price', True)
+# prices2 = getItemsTextByTags(soup, 'td', 'aria-label', 'Price', True)
+# names2 = getItemsTextByTags(soup, 'td', 'aria-label', 'Name', False)
+
+# JSON = json.dumps(dictionary)

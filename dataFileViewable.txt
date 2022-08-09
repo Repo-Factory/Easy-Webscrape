@@ -1,0 +1,111 @@
+{
+'0': '({'Symbol': 'BTC-USD'}, {'Price': '23,825.97'}, {'Name': 'Bitcoin USD'})',
+'1': '({'Symbol': 'ETH-USD'}, {'Price': '1,778.31'}, {'Name': 'Ethereum USD'})',
+'2': '({'Symbol': 'USDT-USD'}, {'Price': '1.0002'}, {'Name': 'Tether USD'})',
+'3': '({'Symbol': 'USDC-USD'}, {'Price': '1.0002'}, {'Name': 'USD Coin USD'})',
+'4': '({'Symbol': 'BNB-USD'}, {'Price': '325.07'}, {'Name': 'Binance Coin USD'})',
+'5': '({'Symbol': 'XRP-USD'}, {'Price': '0.379195'}, {'Name': 'XRP USD'})',
+'6': '({'Symbol': 'ADA-USD'}, {'Price': '0.536550'}, {'Name': 'Cardano USD'})',
+'7': '({'Symbol': 'BUSD-USD'}, {'Price': '1.0002'}, {'Name': 'Binance USD USD'})',
+'8': '({'Symbol': 'SOL-USD'}, {'Price': '42.19'}, {'Name': 'Solana USD'})',
+'9': '({'Symbol': 'DOT-USD'}, {'Price': '9.2718'}, {'Name': 'Polkadot USD'})',
+'10': '({'Symbol': 'DOGE-USD'}, {'Price': '0.070096'}, {'Name': 'Dogecoin USD'})',
+'11': '({'Symbol': 'HEX-USD'}, {'Price': '0.052965'}, {'Name': 'HEX USD'})',
+'12': '({'Symbol': 'AVAX-USD'}, {'Price': '27.95'}, {'Name': 'Avalanche USD'})',
+'13': '({'Symbol': 'DAI-USD'}, {'Price': '0.999800'}, {'Name': 'Dai USD'})',
+'14': '({'Symbol': 'MATIC-USD'}, {'Price': '0.923325'}, {'Name': 'Polygon USD'})',
+'15': '({'Symbol': 'WTRX-USD'}, {'Price': '0.070133'}, {'Name': 'Wrapped TRON USD'})',
+'16': '({'Symbol': 'SHIB-USD'}, {'Price': '0.000012'}, {'Name': 'SHIBA INU USD'})',
+'17': '({'Symbol': 'UNI1-USD'}, {'Price': '8.7975'}, {'Name': 'Uniswap USD'})',
+'18': '({'Symbol': 'TRX-USD'}, {'Price': '0.070175'}, {'Name': 'TRON USD'})',
+'19': '({'Symbol': 'STETH-USD'}, {'Price': '1,718.12'}, {'Name': 'Lido stETH USD'})',
+'20': '({'Symbol': 'WBTC-USD'}, {'Price': '23,826.20'}, {'Name': 'Wrapped Bitcoin USD'})',
+'21': '({'Symbol': 'ETC-USD'}, {'Price': '38.01'}, {'Name': 'Ethereum Classic USD'})',
+'22': '({'Symbol': 'LEO-USD'}, {'Price': '4.7881'}, {'Name': 'UNUS SED LEO USD'})',
+'23': '({'Symbol': 'LTC-USD'}, {'Price': '62.49'}, {'Name': 'Litecoin USD'})',
+'24': '({'Symbol': 'YOUC-USD'}, {'Price': '0.511361'}, {'Name': 'yOUcash USD'})',
+}
+
+
+{
+({'Symbol': 'BTC-USD'}, {'Price': '23,800.89'}, {'Name': 'Bitcoin USD'})
+({'Symbol': 'ETH-USD'}, {'Price': '1,774.38'}, {'Name': 'Ethereum USD'})
+({'Symbol': 'USDT-USD'}, {'Price': '1.0002'}, {'Name': 'Tether USD'})
+({'Symbol': 'USDC-USD'}, {'Price': '1.0000'}, {'Name': 'USD Coin USD'})
+({'Symbol': 'BNB-USD'}, {'Price': '324.95'}, {'Name': 'Binance Coin USD'})
+({'Symbol': 'XRP-USD'}, {'Price': '0.378378'}, {'Name': 'XRP USD'})
+({'Symbol': 'ADA-USD'}, {'Price': '0.533935'}, {'Name': 'Cardano USD'})
+({'Symbol': 'BUSD-USD'}, {'Price': '1.0001'}, {'Name': 'Binance USD USD'})
+({'Symbol': 'SOL-USD'}, {'Price': '42.19'}, {'Name': 'Solana USD'})
+({'Symbol': 'DOT-USD'}, {'Price': '9.2762'}, {'Name': 'Polkadot USD'})
+({'Symbol': 'DOGE-USD'}, {'Price': '0.070309'}, {'Name': 'Dogecoin USD'})
+({'Symbol': 'HEX-USD'}, {'Price': '0.053097'}, {'Name': 'HEX USD'})
+({'Symbol': 'AVAX-USD'}, {'Price': '28.20'}, {'Name': 'Avalanche USD'})
+({'Symbol': 'DAI-USD'}, {'Price': '0.999617'}, {'Name': 'Dai USD'})
+({'Symbol': 'MATIC-USD'}, {'Price': '0.924539'}, {'Name': 'Polygon USD'})
+({'Symbol': 'WTRX-USD'}, {'Price': '0.070183'}, {'Name': 'Wrapped TRON USD'})
+({'Symbol': 'SHIB-USD'}, {'Price': '0.000012'}, {'Name': 'SHIBA INU USD'})
+({'Symbol': 'UNI1-USD'}, {'Price': '8.8270'}, {'Name': 'Uniswap USD'})
+({'Symbol': 'TRX-USD'}, {'Price': '0.070112'}, {'Name': 'TRON USD'})
+({'Symbol': 'STETH-USD'}, {'Price': '1,716.15'}, {'Name': 'Lido stETH USD'})
+({'Symbol': 'WBTC-USD'}, {'Price': '23,836.23'}, {'Name': 'Wrapped Bitcoin USD'})
+({'Symbol': 'ETC-USD'}, {'Price': '37.91'}, {'Name': 'Ethereum Classic USD'})
+({'Symbol': 'LEO-USD'}, {'Price': '4.7981'}, {'Name': 'UNUS SED LEO USD'})
+({'Symbol': 'LTC-USD'}, {'Price': '62.49'}, {'Name': 'Litecoin USD'})
+({'Symbol': 'YOUC-USD'}, {'Price': '0.511365'}, {'Name': 'yOUcash USD'})
+{
+{
+'0': '({'Symbol': 'BTC-USD'}, {'Name': 'Bitcoin USD'}, {'Price': '23,804.12'})',
+'1': '({'Symbol': 'ETH-USD'}, {'Name': 'Ethereum USD'}, {'Price': '1,773.37'})',
+'2': '({'Symbol': 'USDT-USD'}, {'Name': 'Tether USD'}, {'Price': '1.0002'})',
+'3': '({'Symbol': 'USDC-USD'}, {'Name': 'USD Coin USD'}, {'Price': '1.0000'})',
+'4': '({'Symbol': 'BNB-USD'}, {'Name': 'Binance Coin USD'}, {'Price': '323.99'})',
+'5': '({'Symbol': 'XRP-USD'}, {'Name': 'XRP USD'}, {'Price': '0.377570'})',
+'6': '({'Symbol': 'ADA-USD'}, {'Name': 'Cardano USD'}, {'Price': '0.530772'})',
+'7': '({'Symbol': 'BUSD-USD'}, {'Name': 'Binance USD USD'}, {'Price': '1.0001'})',
+'8': '({'Symbol': 'SOL-USD'}, {'Name': 'Solana USD'}, {'Price': '42.06'})',
+'9': '({'Symbol': 'DOT-USD'}, {'Name': 'Polkadot USD'}, {'Price': '9.2006'})',
+'10': '({'Symbol': 'DOGE-USD'}, {'Name': 'Dogecoin USD'}, {'Price': '0.070032'})',
+'11': '({'Symbol': 'HEX-USD'}, {'Name': 'HEX USD'}, {'Price': '0.053122'})',
+'12': '({'Symbol': 'AVAX-USD'}, {'Name': 'Avalanche USD'}, {'Price': '27.95'})',
+'13': '({'Symbol': 'DAI-USD'}, {'Name': 'Dai USD'}, {'Price': '0.999678'})',
+'14': '({'Symbol': 'MATIC-USD'}, {'Name': 'Polygon USD'}, {'Price': '0.919025'})',
+'15': '({'Symbol': 'WTRX-USD'}, {'Name': 'Wrapped TRON USD'}, {'Price': '0.070180'})',
+'16': '({'Symbol': 'SHIB-USD'}, {'Name': 'SHIBA INU USD'}, {'Price': '0.000012'})',
+'17': '({'Symbol': 'UNI1-USD'}, {'Name': 'Uniswap USD'}, {'Price': '8.8118'})',
+'18': '({'Symbol': 'TRX-USD'}, {'Name': 'TRON USD'}, {'Price': '0.070062'})',
+'19': '({'Symbol': 'STETH-USD'}, {'Name': 'Lido stETH USD'}, {'Price': '1,712.88'})',
+'20': '({'Symbol': 'WBTC-USD'}, {'Name': 'Wrapped Bitcoin USD'}, {'Price': '23,791.61'})',
+'21': '({'Symbol': 'ETC-USD'}, {'Name': 'Ethereum Classic USD'}, {'Price': '37.73'})',
+'22': '({'Symbol': 'LEO-USD'}, {'Name': 'UNUS SED LEO USD'}, {'Price': '4.7907'})',
+'23': '({'Symbol': 'LTC-USD'}, {'Name': 'Litecoin USD'}, {'Price': '62.38'})',
+'24': '({'Symbol': 'YOUC-USD'}, {'Name': 'yOUcash USD'}, {'Price': '0.511366'})',
+}
+
+
+{
+({'Symbol': 'BTC-USD'}, {'Name': 'Bitcoin USD'}, {'Price': '23,736.93'})
+({'Symbol': 'ETH-USD'}, {'Name': 'Ethereum USD'}, {'Price': '1,768.13'})
+({'Symbol': 'USDT-USD'}, {'Name': 'Tether USD'}, {'Price': '1.0002'})
+({'Symbol': 'USDC-USD'}, {'Name': 'USD Coin USD'}, {'Price': '1.0000'})
+({'Symbol': 'BNB-USD'}, {'Name': 'Binance Coin USD'}, {'Price': '324.76'})
+({'Symbol': 'XRP-USD'}, {'Name': 'XRP USD'}, {'Price': '0.375768'})
+({'Symbol': 'ADA-USD'}, {'Name': 'Cardano USD'}, {'Price': '0.529881'})
+({'Symbol': 'BUSD-USD'}, {'Name': 'Binance USD USD'}, {'Price': '1.0002'})
+({'Symbol': 'SOL-USD'}, {'Name': 'Solana USD'}, {'Price': '41.78'})
+({'Symbol': 'DOT-USD'}, {'Name': 'Polkadot USD'}, {'Price': '9.1354'})
+({'Symbol': 'DOGE-USD'}, {'Name': 'Dogecoin USD'}, {'Price': '0.070005'})
+({'Symbol': 'HEX-USD'}, {'Name': 'HEX USD'}, {'Price': '0.053433'})
+({'Symbol': 'AVAX-USD'}, {'Name': 'Avalanche USD'}, {'Price': '27.73'})
+({'Symbol': 'DAI-USD'}, {'Name': 'Dai USD'}, {'Price': '0.999913'})
+({'Symbol': 'MATIC-USD'}, {'Name': 'Polygon USD'}, {'Price': '0.918632'})
+({'Symbol': 'WTRX-USD'}, {'Name': 'Wrapped TRON USD'}, {'Price': '0.070001'})
+({'Symbol': 'STA-USD'}, {'Name': 'STATERA USD'}, {'Price': '85.69'})
+({'Symbol': 'SHIB-USD'}, {'Name': 'SHIBA INU USD'}, {'Price': '0.000012'})
+({'Symbol': 'UNI1-USD'}, {'Name': 'Uniswap USD'}, {'Price': '8.7901'})
+({'Symbol': 'TRX-USD'}, {'Name': 'TRON USD'}, {'Price': '0.070049'})
+({'Symbol': 'STETH-USD'}, {'Name': 'Lido stETH USD'}, {'Price': '1,705.70'})
+({'Symbol': 'WBTC-USD'}, {'Name': 'Wrapped Bitcoin USD'}, {'Price': '23,730.84'})
+({'Symbol': 'ETC-USD'}, {'Name': 'Ethereum Classic USD'}, {'Price': '37.71'})
+({'Symbol': 'LEO-USD'}, {'Name': 'UNUS SED LEO USD'}, {'Price': '4.7908'})
+({'Symbol': 'LTC-USD'}, {'Name': 'Litecoin USD'}, {'Price': '62.21'})

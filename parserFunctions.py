@@ -1,18 +1,24 @@
 import bs4
-from dataFileHelper import writeToFile
 
 
 def getSoup(responseText):
     soup = bs4.BeautifulSoup(responseText, 'lxml')
     return soup
 
-
+# helper
 def selectTags(soup, tag, attr, name, contains):
     if contains == True:
         tags = soup.select(f"{tag}[{attr}*='{name}']")
     if contains == False:
         tags = soup.select(f"{tag}[{attr}='{name}']")
     return tags
+
+# helper
+def getAllInnerText(listOfObjects, columnName):
+    for object in listOfObjects:
+        dict = {}
+        dict[columnName] = object.text
+        yield dict
 
 
 def getItemsTextByTags(soup, tag, attr, name, contains):
@@ -21,15 +27,17 @@ def getItemsTextByTags(soup, tag, attr, name, contains):
     return items
 
 
-def getAllInnerText(listOfObjects):
-    for object in listOfObjects:
-        yield object.text
+def getItemsTextByTagsInDict(soup, tag, attr, name, contains, columnName):
+    tags = selectTags(soup=soup, tag=tag, attr=attr, name=name, contains=contains)
+    items = getAllInnerText(tags, columnName)
+    return items
 
 
+# helper
 def getGeneratorsFromTags(*tagArrayArguments):
     for tagArrayArgument in tagArrayArguments:
         args_list = tagArrayArgument
-        yield getItemsTextByTags(*args_list)
+        yield getItemsTextByTagsInDict(*args_list)
 
 
 def getZippedList(*generators):
@@ -44,12 +52,24 @@ def createDataFrameFromTags(soup, *args_list):
     generatorList = []
     for generator in generators:
         generatorList.append(generator)
-    zippedList = getZippedList(*generatorList)
-    return zippedList
+    dataFrame = getZippedList(*generatorList)
+    return dataFrame
 
 
+def createDictionaryFromDataFrame(dataFrame):
+    i = 0
+    dict = {}
+    for item in dataFrame:
+        dict[i] = item
+        i+=1
+    return dict
 
 
+def createListFromDataFrame(dataFrame):
+    JSONlist = []
+    for item in dataFrame:
+        JSONlist.append(item)
+    return JSONlist
 '''
 args_list = {
                 1: [soup, 'td', 'aria-label', 'Symbol', False], 
