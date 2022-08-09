@@ -74,3 +74,12 @@ for (let element of all) {
 # names2 = getItemsTextByTags(soup, 'td', 'aria-label', 'Name', False)
 
 # JSON = json.dumps(dictionary)
+
+def createDictionaryFromDataFrame(dataFrame):
+    i = 0
+    dict = {}
+    for item in dataFrame:
+        dict[i] = item
+        i+=1
+    return dict
+

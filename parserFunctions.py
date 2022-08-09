@@ -1,11 +1,12 @@
 import bs4
+from collections import ChainMap
 
 
 def getSoup(responseText):
     soup = bs4.BeautifulSoup(responseText, 'lxml')
     return soup
 
-# helper
+
 def selectTags(soup, tag, attr, name, contains):
     if contains == True:
         tags = soup.select(f"{tag}[{attr}*='{name}']")
@@ -13,7 +14,8 @@ def selectTags(soup, tag, attr, name, contains):
         tags = soup.select(f"{tag}[{attr}='{name}']")
     return tags
 
-# helper
+
+# yields info in a dictionary along with the column name so that the JSON can be converted to excel easily
 def getAllInnerText(listOfObjects, columnName):
     for object in listOfObjects:
         dict = {}
@@ -21,13 +23,7 @@ def getAllInnerText(listOfObjects, columnName):
         yield dict
 
 
-def getItemsTextByTags(soup, tag, attr, name, contains):
-    tags = selectTags(soup=soup, tag=tag, attr=attr, name=name, contains=contains)
-    items = getAllInnerText(tags)
-    return items
-
-
-def getItemsTextByTagsInDict(soup, tag, attr, name, contains, columnName):
+def getItemsTextByTags(soup, tag, attr, name, contains, columnName):
     tags = selectTags(soup=soup, tag=tag, attr=attr, name=name, contains=contains)
     items = getAllInnerText(tags, columnName)
     return items
@@ -37,17 +33,10 @@ def getItemsTextByTagsInDict(soup, tag, attr, name, contains, columnName):
 def getGeneratorsFromTags(*tagArrayArguments):
     for tagArrayArgument in tagArrayArguments:
         args_list = tagArrayArgument
-        yield getItemsTextByTagsInDict(*args_list)
+        yield getItemsTextByTags(*args_list)
 
 
-def getZippedList(*generators):
-    zipped = zip(*generators)
-    listZipped = list(zipped)
-    for item in listZipped:
-        yield(item)
-
-
-def createDataFrameFromTags(soup, *args_list):
+def createZippedDataFrameFromTags(soup, *args_list):
     generators = getGeneratorsFromTags(*args_list)
     generatorList = []
     for generator in generators:
@@ -56,20 +45,41 @@ def createDataFrameFromTags(soup, *args_list):
     return dataFrame
 
 
-def createDictionaryFromDataFrame(dataFrame):
-    i = 0
-    dict = {}
-    for item in dataFrame:
-        dict[i] = item
-        i+=1
-    return dict
+# combines generators into zipped object
+def getZippedList(*generators):
+    zipped = zip(*generators)
+    listZipped = list(zipped)
+    for item in listZipped:
+        yield(item)
 
 
-def createListFromDataFrame(dataFrame):
+# zip creates tuples of objects that don't translate well to JSON
+def mergeZippedObjectDicts(zippedObject):
+    listOfDictionaries = createListFromWrapperObject(zippedObject) # unwraps zipped generators 
+    mergedDictionaries = mergeDictionariesInList(listOfDictionaries) # merges lists of zipped objects and returns generator
+    listOfMergedDictionaries = createListFromWrapperObject(mergedDictionaries) # unwraps
+    return listOfMergedDictionaries
+
+
+# helper to unwrap generators
+def createListFromWrapperObject(wrapperObject):
     JSONlist = []
-    for item in dataFrame:
+    for item in wrapperObject:
         JSONlist.append(item)
     return JSONlist
+
+
+def mergeDictionariesInList(listOfDictionaries): #listOfListOfDictionaries all rows in generator
+    for dictionary in listOfDictionaries: # one row of dictionaries {}{}{}
+        mergedDict = dict(ChainMap(*dictionary))
+        yield mergedDict
+
+
+
+
+
+
+
 '''
 args_list = {
                 1: [soup, 'td', 'aria-label', 'Symbol', False], 

@@ -1,3 +1,6 @@
+import json
+from data import JSONtoCSV
+
 def writeToFile(data, fileName):
     dataFile = open(fileName, 'w', encoding='utf-8')
     dataFile.write('\n' + data)
@@ -31,3 +34,10 @@ def writeJSONstringByLine(data, fileName):
         dataFile.write(string + '\n')
         dataFile.close
     return print('Wrote JSON to File')
+
+
+def writeToFiles(data):
+    writeListToFile(data, 'dataFile.txt')
+    JSON = json.dumps(data)
+    writeToFile(JSON, 'dataFile.json')
+    JSONtoCSV('dataFile.json', 'dataFile.csv')

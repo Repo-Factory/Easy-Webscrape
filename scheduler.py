@@ -1,6 +1,6 @@
 import sched
 import time
-from webscrape import main
+from webscrape import scrape
 
 
 class Tracker:
@@ -18,7 +18,7 @@ tracker = Tracker()
 
 
 def trigger():
-    main()
+    scrape()
     event_schedule.enter(interval, 1, trigger)
 
 interval = 6000

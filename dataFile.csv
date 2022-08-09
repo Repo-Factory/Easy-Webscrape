@@ -1,26 +1,26 @@
-0,1,2
-{'Symbol': 'BTC-USD'},{'Name': 'Bitcoin USD'},"{'Price': '23,736.93'}"
-{'Symbol': 'ETH-USD'},{'Name': 'Ethereum USD'},"{'Price': '1,768.13'}"
-{'Symbol': 'USDT-USD'},{'Name': 'Tether USD'},{'Price': '1.0002'}
-{'Symbol': 'USDC-USD'},{'Name': 'USD Coin USD'},{'Price': '1.0000'}
-{'Symbol': 'BNB-USD'},{'Name': 'Binance Coin USD'},{'Price': '324.76'}
-{'Symbol': 'XRP-USD'},{'Name': 'XRP USD'},{'Price': '0.375768'}
-{'Symbol': 'ADA-USD'},{'Name': 'Cardano USD'},{'Price': '0.529881'}
-{'Symbol': 'BUSD-USD'},{'Name': 'Binance USD USD'},{'Price': '1.0002'}
-{'Symbol': 'SOL-USD'},{'Name': 'Solana USD'},{'Price': '41.78'}
-{'Symbol': 'DOT-USD'},{'Name': 'Polkadot USD'},{'Price': '9.1354'}
-{'Symbol': 'DOGE-USD'},{'Name': 'Dogecoin USD'},{'Price': '0.070005'}
-{'Symbol': 'HEX-USD'},{'Name': 'HEX USD'},{'Price': '0.053433'}
-{'Symbol': 'AVAX-USD'},{'Name': 'Avalanche USD'},{'Price': '27.73'}
-{'Symbol': 'DAI-USD'},{'Name': 'Dai USD'},{'Price': '0.999913'}
-{'Symbol': 'MATIC-USD'},{'Name': 'Polygon USD'},{'Price': '0.918632'}
-{'Symbol': 'WTRX-USD'},{'Name': 'Wrapped TRON USD'},{'Price': '0.070001'}
-{'Symbol': 'STA-USD'},{'Name': 'STATERA USD'},{'Price': '85.69'}
-{'Symbol': 'SHIB-USD'},{'Name': 'SHIBA INU USD'},{'Price': '0.000012'}
-{'Symbol': 'UNI1-USD'},{'Name': 'Uniswap USD'},{'Price': '8.7901'}
-{'Symbol': 'TRX-USD'},{'Name': 'TRON USD'},{'Price': '0.070049'}
-{'Symbol': 'STETH-USD'},{'Name': 'Lido stETH USD'},"{'Price': '1,705.70'}"
-{'Symbol': 'WBTC-USD'},{'Name': 'Wrapped Bitcoin USD'},"{'Price': '23,730.84'}"
-{'Symbol': 'ETC-USD'},{'Name': 'Ethereum Classic USD'},{'Price': '37.71'}
-{'Symbol': 'LEO-USD'},{'Name': 'UNUS SED LEO USD'},{'Price': '4.7908'}
-{'Symbol': 'LTC-USD'},{'Name': 'Litecoin USD'},{'Price': '62.21'}
+Price,Name,Symbol
+"23,883.96",Bitcoin USD,BTC-USD
+"1,785.06",Ethereum USD,ETH-USD
+1.0002,Tether USD,USDT-USD
+0.999863,USD Coin USD,USDC-USD
+325.91,Binance Coin USD,BNB-USD
+0.377635,XRP USD,XRP-USD
+0.535270,Cardano USD,ADA-USD
+1.0002,Binance USD USD,BUSD-USD
+42.62,Solana USD,SOL-USD
+9.1763,Polkadot USD,DOT-USD
+0.073306,Dogecoin USD,DOGE-USD
+0.054640,HEX USD,HEX-USD
+28.51,Avalanche USD,AVAX-USD
+1.0001,Dai USD,DAI-USD
+0.927001,Polygon USD,MATIC-USD
+0.070348,Wrapped TRON USD,WTRX-USD
+0.000013,SHIBA INU USD,SHIB-USD
+86.55,STATERA USD,STA-USD
+8.8101,Uniswap USD,UNI1-USD
+0.070513,TRON USD,TRX-USD
+"1,724.60",Lido stETH USD,STETH-USD
+"23,871.21",Wrapped Bitcoin USD,WBTC-USD
+38.10,Ethereum Classic USD,ETC-USD
+4.7950,UNUS SED LEO USD,LEO-USD
+62.68,Litecoin USD,LTC-USD
