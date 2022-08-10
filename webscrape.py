@@ -1,9 +1,9 @@
-from robot import instantiateDriver
-from robotFunctions import *
-from parser import getHTMLRequest, getHTMLSelenium
-from parserFunctions import *
-from dataFileHelper import writeToFiles
-from formatConfigurations import *
+from robot.robot import instantiateDriver
+from robot.robotFunctions import *
+from parser.parser import getHTMLRequest, getHTMLSelenium
+from parser.parserFunctions import *
+from dataHandling.dataFileHelper import writeToFiles
+from configurations.formatConfigurations import *
 
 
 '''Creates Selenium Webdriver and passes HTML to parser'''
@@ -56,7 +56,7 @@ scrape(
         requireSelenium=False,
         scrapeName='chinese',
         overRide=True,
-        fullScrape=False
+        fullScrape=True
       )
 
 
