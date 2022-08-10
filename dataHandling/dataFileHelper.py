@@ -1,5 +1,5 @@
 import json
-from data import JSONtoCSV
+from .data import JSONtoCSV
 
 
 def openFile(fileName, overRide):
@@ -28,8 +28,8 @@ def writeToFileFormatted(data, fileName, overRide):
 
 
 def writeToFiles(data, scrapeName, overRide):
-    writeToFileFormatted(data, f'dataFiles\\{scrapeName}.txt', overRide)
+    writeToFileFormatted(data, f'.\\dataFiles\\{scrapeName}.txt', overRide)
     JSON = json.dumps(data)
-    writeToFile(JSON, f'dataFiles\\{scrapeName}.json', overRide)
-    JSONtoCSV(f'dataFiles\\{scrapeName}.json', f'dataFiles\\{scrapeName}.csv')
+    writeToFile(JSON, f'.\\dataFiles\\{scrapeName}.json', overRide)
+    JSONtoCSV(f'.\\dataFiles\\{scrapeName}.json', f'.\\dataFiles\\{scrapeName}.csv')
 

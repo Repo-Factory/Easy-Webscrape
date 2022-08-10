@@ -1,4 +1,3 @@
-from time import sleep
 import pyclick
 from selenium.webdriver.common.by import By
 
