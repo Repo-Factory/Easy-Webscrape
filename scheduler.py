@@ -15,8 +15,6 @@ class Tracker:
 tracker = Tracker()
 
 
-
-
 def trigger():
     scrape()
     event_schedule.enter(interval, 1, trigger)

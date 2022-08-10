@@ -1,0 +1,505 @@
+{
+'0': '('BTC-USD', '23,839.35', 'Bitcoin USD')',
+'1': '('ETH-USD', '1,734.14', 'Ethereum USD')',
+'2': '('USDT-USD', '1.0002', 'Tether USD')',
+'3': '('USDC-USD', '1.0001', 'USD Coin USD')',
+'4': '('BNB-USD', '328.15', 'Binance Coin USD')',
+'5': '('XRP-USD', '0.378163', 'XRP USD')',
+'6': '('ADA-USD', '0.539965', 'Cardano USD')',
+'7': '('BUSD-USD', '0.999608', 'Binance USD USD')',
+'8': '('SOL-USD', '42.59', 'Solana USD')',
+'9': '('DOT-USD', '9.1812', 'Polkadot USD')',
+'10': '('DOGE-USD', '0.070581', 'Dogecoin USD')',
+'11': '('HEX-USD', '0.053905', 'HEX USD')',
+'12': '('AVAX-USD', '28.33', 'Avalanche USD')',
+'13': '('DAI-USD', '0.999517', 'Dai USD')',
+'14': '('MATIC-USD', '0.931007', 'Polygon USD')',
+'15': '('WTRX-USD', '0.070304', 'Wrapped TRON USD')',
+'16': '('SHIB-USD', '0.000012', 'SHIBA INU USD')',
+'17': '('UNI1-USD', '9.0362', 'Uniswap USD')',
+'18': '('TRX-USD', '0.070431', 'TRON USD')',
+'19': '('STETH-USD', '1,672.77', 'Lido stETH USD')',
+'20': '('WBTC-USD', '23,792.22', 'Wrapped Bitcoin USD')',
+'21': '('ETC-USD', '38.17', 'Ethereum Classic USD')',
+'22': '('LEO-USD', '4.8620', 'UNUS SED LEO USD')',
+'23': '('LTC-USD', '62.28', 'Litecoin USD')',
+'24': '('YOUC-USD', '0.511304', 'yOUcash USD')',
+}
+{
+'0': '('BTC-USD', '24,114.40', 'Bitcoin USD')',
+'1': '('ETH-USD', '1,770.24', 'Ethereum USD')',
+'2': '('USDT-USD', '1.0002', 'Tether USD')',
+'3': '('USDC-USD', '0.999772', 'USD Coin USD')',
+'4': '('BNB-USD', '331.02', 'Binance Coin USD')',
+'5': '('ADA-USD', '0.548311', 'Cardano USD')',
+'6': '('XRP-USD', '0.381633', 'XRP USD')',
+'7': '('BUSD-USD', '0.999875', 'Binance USD USD')',
+'8': '('SOL-USD', '42.82', 'Solana USD')',
+'9': '('DOT-USD', '9.2272', 'Polkadot USD')',
+'10': '('DOGE-USD', '0.071142', 'Dogecoin USD')',
+'11': '('HEX-USD', '0.053499', 'HEX USD')',
+'12': '('AVAX-USD', '28.77', 'Avalanche USD')',
+'13': '('MATIC-USD', '0.938669', 'Polygon USD')',
+'14': '('DAI-USD', '0.999818', 'Dai USD')',
+'15': '('WTRX-USD', '0.070602', 'Wrapped TRON USD')',
+'16': '('SHIB-USD', '0.000012', 'SHIBA INU USD')',
+'17': '('UNI1-USD', '9.1455', 'Uniswap USD')',
+'18': '('TRX-USD', '0.070793', 'TRON USD')',
+'19': '('STETH-USD', '1,706.59', 'Lido stETH USD')',
+'20': '('WBTC-USD', '24,078.29', 'Wrapped Bitcoin USD')',
+'21': '('ETC-USD', '39.56', 'Ethereum Classic USD')',
+'22': '('LEO-USD', '4.8558', 'UNUS SED LEO USD')',
+'23': '('LTC-USD', '63.05', 'Litecoin USD')',
+'24': '('YOUC-USD', '0.511307', 'yOUcash USD')',
+}
+{
+'0': '('BTC-USD', '24,094.40', 'Bitcoin USD')',
+'1': '('ETH-USD', '1,770.75', 'Ethereum USD')',
+'2': '('USDT-USD', '1.0001', 'Tether USD')',
+'3': '('USDC-USD', '0.999897', 'USD Coin USD')',
+'4': '('BNB-USD', '329.03', 'Binance Coin USD')',
+'5': '('XRP-USD', '0.381535', 'XRP USD')',
+'6': '('ADA-USD', '0.543609', 'Cardano USD')',
+'7': '('BUSD-USD', '0.999904', 'Binance USD USD')',
+'8': '('SOL-USD', '42.60', 'Solana USD')',
+'9': '('DOT-USD', '9.3383', 'Polkadot USD')',
+'10': '('HEX-USD', '0.055342', 'HEX USD')',
+'11': '('DOGE-USD', '0.070883', 'Dogecoin USD')',
+'12': '('AVAX-USD', '29.78', 'Avalanche USD')',
+'13': '('MATIC-USD', '0.945022', 'Polygon USD')',
+'14': '('DAI-USD', '0.999549', 'Dai USD')',
+'15': '('WTRX-USD', '0.070640', 'Wrapped TRON USD')',
+'16': '('SHIB-USD', '0.000013', 'SHIBA INU USD')',
+'17': '('UNI1-USD', '9.2089', 'Uniswap USD')',
+'18': '('TRX-USD', '0.070772', 'TRON USD')',
+'19': '('STETH-USD', '1,706.28', 'Lido stETH USD')',
+'20': '('WBTC-USD', '24,083.15', 'Wrapped Bitcoin USD')',
+'21': '('ETC-USD', '38.99', 'Ethereum Classic USD')',
+'22': '('LEO-USD', '4.8594', 'UNUS SED LEO USD')',
+'23': '('LTC-USD', '63.64', 'Litecoin USD')',
+'24': '('YOUC-USD', '0.511288', 'yOUcash USD')',
+}
+
+
+{
+'0': '('BTC-USD', '23,964.61', 'Bitcoin USD')',
+'1': '('ETH-USD', '1,770.46', 'Ethereum USD')',
+'2': '('USDT-USD', '1.0001', 'Tether USD')',
+'3': '('USDC-USD', '1.0000', 'USD Coin USD')',
+'4': '('BNB-USD', '324.21', 'Binance Coin USD')',
+'5': '('XRP-USD', '0.379627', 'XRP USD')',
+'6': '('ADA-USD', '0.533991', 'Cardano USD')',
+'7': '('BUSD-USD', '1.0005', 'Binance USD USD')',
+'8': '('SOL-USD', '42.24', 'Solana USD')',
+'9': '('DOT-USD', '9.2507', 'Polkadot USD')',
+'10': '('DOGE-USD', '0.070024', 'Dogecoin USD')',
+'11': '('HEX-USD', '0.053062', 'HEX USD')',
+'12': '('AVAX-USD', '29.00', 'Avalanche USD')',
+'13': '('DAI-USD', '0.999856', 'Dai USD')',
+'14': '('MATIC-USD', '0.922324', 'Polygon USD')',
+'15': '('WTRX-USD', '0.070160', 'Wrapped TRON USD')',
+'16': '('SHIB-USD', '0.000012', 'SHIBA INU USD')',
+'17': '('UNI1-USD', '8.8488', 'Uniswap USD')',
+'18': '('TRX-USD', '0.070145', 'TRON USD')',
+'19': '('STETH-USD', '1,706.06', 'Lido stETH USD')',
+'20': '('WBTC-USD', '23,937.46', 'Wrapped Bitcoin USD')',
+'21': '('ETC-USD', '37.73', 'Ethereum Classic USD')',
+'22': '('LEO-USD', '4.8464', 'UNUS SED LEO USD')',
+'23': '('LTC-USD', '62.85', 'Litecoin USD')',
+'24': '('YOUC-USD', '0.511343', 'yOUcash USD')',
+}
+
+
+{
+'0': '('BTC-USD', '23,825.91', 'Bitcoin USD')',
+'1': '('ETH-USD', '1,773.25', 'Ethereum USD')',
+'2': '('USDT-USD', '1.0002', 'Tether USD')',
+'3': '('USDC-USD', '0.999908', 'USD Coin USD')',
+'4': '('BNB-USD', '324.62', 'Binance Coin USD')',
+'5': '('XRP-USD', '0.380245', 'XRP USD')',
+'6': '('ADA-USD', '0.534594', 'Cardano USD')',
+'7': '('BUSD-USD', '1.0000', 'Binance USD USD')',
+'8': '('SOL-USD', '42.30', 'Solana USD')',
+'9': '('DOT-USD', '9.2281', 'Polkadot USD')',
+'10': '('DOGE-USD', '0.070081', 'Dogecoin USD')',
+'11': '('HEX-USD', '0.053205', 'HEX USD')',
+'12': '('AVAX-USD', '28.22', 'Avalanche USD')',
+'13': '('DAI-USD', '0.999661', 'Dai USD')',
+'14': '('MATIC-USD', '0.922925', 'Polygon USD')',
+'15': '('WTRX-USD', '0.070370', 'Wrapped TRON USD')',
+'16': '('SHIB-USD', '0.000012', 'SHIBA INU USD')',
+'17': '('UNI1-USD', '8.8253', 'Uniswap USD')',
+'18': '('TRX-USD', '0.070369', 'TRON USD')',
+'19': '('STETH-USD', '1,713.37', 'Lido stETH USD')',
+'20': '('WBTC-USD', '23,833.91', 'Wrapped Bitcoin USD')',
+'21': '('ETC-USD', '37.95', 'Ethereum Classic USD')',
+'22': '('LEO-USD', '4.8055', 'UNUS SED LEO USD')',
+'23': '('LTC-USD', '62.71', 'Litecoin USD')',
+'24': '('YOUC-USD', '0.511354', 'yOUcash USD')',
+}
+
+
+{
+'0': '({'coin': 'BTC-USD'}, {'price': '23,807.06'}, {'name': 'Bitcoin USD'})',
+'1': '({'coin': 'ETH-USD'}, {'price': '1,774.05'}, {'name': 'Ethereum USD'})',
+'2': '({'coin': 'USDT-USD'}, {'price': '1.0001'}, {'name': 'Tether USD'})',
+'3': '({'coin': 'USDC-USD'}, {'price': '1.0000'}, {'name': 'USD Coin USD'})',
+'4': '({'coin': 'BNB-USD'}, {'price': '324.46'}, {'name': 'Binance Coin USD'})',
+'5': '({'coin': 'XRP-USD'}, {'price': '0.378842'}, {'name': 'XRP USD'})',
+'6': '({'coin': 'ADA-USD'}, {'price': '0.536470'}, {'name': 'Cardano USD'})',
+'7': '({'coin': 'BUSD-USD'}, {'price': '1.0002'}, {'name': 'Binance USD USD'})',
+'8': '({'coin': 'SOL-USD'}, {'price': '42.12'}, {'name': 'Solana USD'})',
+'9': '({'coin': 'DOT-USD'}, {'price': '9.2905'}, {'name': 'Polkadot USD'})',
+'10': '({'coin': 'DOGE-USD'}, {'price': '0.070030'}, {'name': 'Dogecoin USD'})',
+'11': '({'coin': 'HEX-USD'}, {'price': '0.053121'}, {'name': 'HEX USD'})',
+'12': '({'coin': 'AVAX-USD'}, {'price': '28.02'}, {'name': 'Avalanche USD'})',
+'13': '({'coin': 'DAI-USD'}, {'price': '0.999587'}, {'name': 'Dai USD'})',
+'14': '({'coin': 'MATIC-USD'}, {'price': '0.920782'}, {'name': 'Polygon USD'})',
+'15': '({'coin': 'WTRX-USD'}, {'price': '0.070124'}, {'name': 'Wrapped TRON USD'})',
+'16': '({'coin': 'SHIB-USD'}, {'price': '0.000012'}, {'name': 'SHIBA INU USD'})',
+'17': '({'coin': 'UNI1-USD'}, {'price': '8.8020'}, {'name': 'Uniswap USD'})',
+'18': '({'coin': 'TRX-USD'}, {'price': '0.070147'}, {'name': 'TRON USD'})',
+'19': '({'coin': 'STETH-USD'}, {'price': '1,713.12'}, {'name': 'Lido stETH USD'})',
+'20': '({'coin': 'WBTC-USD'}, {'price': '23,821.85'}, {'name': 'Wrapped Bitcoin USD'})',
+'21': '({'coin': 'ETC-USD'}, {'price': '38.09'}, {'name': 'Ethereum Classic USD'})',
+'22': '({'coin': 'LEO-USD'}, {'price': '4.7933'}, {'name': 'UNUS SED LEO USD'})',
+'23': '({'coin': 'LTC-USD'}, {'price': '62.55'}, {'name': 'Litecoin USD'})',
+'24': '({'coin': 'YOUC-USD'}, {'price': '0.511346'}, {'name': 'yOUcash USD'})',
+}
+
+
+
+{'Price': '23,800.12', 'Name': 'Bitcoin USD', 'Symbol': 'BTC-USD'}
+{'Price': '1,771.07', 'Name': 'Ethereum USD', 'Symbol': 'ETH-USD'}
+{'Price': '1.0002', 'Name': 'Tether USD', 'Symbol': 'USDT-USD'}
+{'Price': '0.999878', 'Name': 'USD Coin USD', 'Symbol': 'USDC-USD'}
+{'Price': '324.77', 'Name': 'Binance Coin USD', 'Symbol': 'BNB-USD'}
+{'Price': '0.376298', 'Name': 'XRP USD', 'Symbol': 'XRP-USD'}
+{'Price': '0.533353', 'Name': 'Cardano USD', 'Symbol': 'ADA-USD'}
+{'Price': '1.0000', 'Name': 'Binance USD USD', 'Symbol': 'BUSD-USD'}
+{'Price': '42.35', 'Name': 'Solana USD', 'Symbol': 'SOL-USD'}
+{'Price': '9.1563', 'Name': 'Polkadot USD', 'Symbol': 'DOT-USD'}
+{'Price': '0.071249', 'Name': 'Dogecoin USD', 'Symbol': 'DOGE-USD'}
+{'Price': '0.053905', 'Name': 'HEX USD', 'Symbol': 'HEX-USD'}
+{'Price': '28.44', 'Name': 'Avalanche USD', 'Symbol': 'AVAX-USD'}
+{'Price': '0.999581', 'Name': 'Dai USD', 'Symbol': 'DAI-USD'}
+{'Price': '0.924369', 'Name': 'Polygon USD', 'Symbol': 'MATIC-USD'}
+{'Price': '0.070248', 'Name': 'Wrapped TRON USD', 'Symbol': 'WTRX-USD'}
+{'Price': '0.000012', 'Name': 'SHIBA INU USD', 'Symbol': 'SHIB-USD'}
+{'Price': '85.90', 'Name': 'STATERA USD', 'Symbol': 'STA-USD'}
+{'Price': '8.7893', 'Name': 'Uniswap USD', 'Symbol': 'UNI1-USD'}
+{'Price': '0.070267', 'Name': 'TRON USD', 'Symbol': 'TRX-USD'}
+{'Price': '1,709.42', 'Name': 'Lido stETH USD', 'Symbol': 'STETH-USD'}
+{'Price': '23,809.28', 'Name': 'Wrapped Bitcoin USD', 'Symbol': 'WBTC-USD'}
+{'Price': '37.81', 'Name': 'Ethereum Classic USD', 'Symbol': 'ETC-USD'}
+{'Price': '4.7949', 'Name': 'UNUS SED LEO USD', 'Symbol': 'LEO-USD'}
+{'Price': '62.48', 'Name': 'Litecoin USD', 'Symbol': 'LTC-USD'}
+{'Price': '23,788.94', 'Name': 'Bitcoin USD', 'Symbol': 'BTC-USD'}
+{'Price': '1,769.95', 'Name': 'Ethereum USD', 'Symbol': 'ETH-USD'}
+{'Price': '1.0002', 'Name': 'Tether USD', 'Symbol': 'USDT-USD'}
+{'Price': '0.999945', 'Name': 'USD Coin USD', 'Symbol': 'USDC-USD'}
+{'Price': '324.47', 'Name': 'Binance Coin USD', 'Symbol': 'BNB-USD'}
+{'Price': '0.376197', 'Name': 'XRP USD', 'Symbol': 'XRP-USD'}
+{'Price': '0.533140', 'Name': 'Cardano USD', 'Symbol': 'ADA-USD'}
+{'Price': '0.999966', 'Name': 'Binance USD USD', 'Symbol': 'BUSD-USD'}
+{'Price': '42.32', 'Name': 'Solana USD', 'Symbol': 'SOL-USD'}
+{'Price': '9.1351', 'Name': 'Polkadot USD', 'Symbol': 'DOT-USD'}
+{'Price': '0.071363', 'Name': 'Dogecoin USD', 'Symbol': 'DOGE-USD'}
+{'Price': '0.053941', 'Name': 'HEX USD', 'Symbol': 'HEX-USD'}
+{'Price': '28.35', 'Name': 'Avalanche USD', 'Symbol': 'AVAX-USD'}
+{'Price': '0.999564', 'Name': 'Dai USD', 'Symbol': 'DAI-USD'}
+{'Price': '0.923054', 'Name': 'Polygon USD', 'Symbol': 'MATIC-USD'}
+{'Price': '0.070251', 'Name': 'Wrapped TRON USD', 'Symbol': 'WTRX-USD'}
+{'Price': '0.000012', 'Name': 'SHIBA INU USD', 'Symbol': 'SHIB-USD'}
+{'Price': '85.84', 'Name': 'STATERA USD', 'Symbol': 'STA-USD'}
+{'Price': '8.7848', 'Name': 'Uniswap USD', 'Symbol': 'UNI1-USD'}
+{'Price': '0.070231', 'Name': 'TRON USD', 'Symbol': 'TRX-USD'}
+{'Price': '1,709.10', 'Name': 'Lido stETH USD', 'Symbol': 'STETH-USD'}
+{'Price': '23,799.38', 'Name': 'Wrapped Bitcoin USD', 'Symbol': 'WBTC-USD'}
+{'Price': '37.75', 'Name': 'Ethereum Classic USD', 'Symbol': 'ETC-USD'}
+{'Price': '4.7958', 'Name': 'UNUS SED LEO USD', 'Symbol': 'LEO-USD'}
+{'Price': '62.43', 'Name': 'Litecoin USD', 'Symbol': 'LTC-USD'}
+{'Price': '23,883.36', 'Name': 'Bitcoin USD', 'Symbol': 'BTC-USD'}
+{'Price': '1,784.09', 'Name': 'Ethereum USD', 'Symbol': 'ETH-USD'}
+{'Price': '1.0001', 'Name': 'Tether USD', 'Symbol': 'USDT-USD'}
+{'Price': '0.999979', 'Name': 'USD Coin USD', 'Symbol': 'USDC-USD'}
+{'Price': '325.70', 'Name': 'Binance Coin USD', 'Symbol': 'BNB-USD'}
+{'Price': '0.377579', 'Name': 'XRP USD', 'Symbol': 'XRP-USD'}
+{'Price': '0.535232', 'Name': 'Cardano USD', 'Symbol': 'ADA-USD'}
+{'Price': '1.0001', 'Name': 'Binance USD USD', 'Symbol': 'BUSD-USD'}
+{'Price': '42.58', 'Name': 'Solana USD', 'Symbol': 'SOL-USD'}
+{'Price': '9.1723', 'Name': 'Polkadot USD', 'Symbol': 'DOT-USD'}
+{'Price': '0.073403', 'Name': 'Dogecoin USD', 'Symbol': 'DOGE-USD'}
+{'Price': '0.054602', 'Name': 'HEX USD', 'Symbol': 'HEX-USD'}
+{'Price': '28.47', 'Name': 'Avalanche USD', 'Symbol': 'AVAX-USD'}
+{'Price': '0.999932', 'Name': 'Dai USD', 'Symbol': 'DAI-USD'}
+{'Price': '0.926917', 'Name': 'Polygon USD', 'Symbol': 'MATIC-USD'}
+{'Price': '0.070347', 'Name': 'Wrapped TRON USD', 'Symbol': 'WTRX-USD'}
+{'Price': '0.000013', 'Name': 'SHIBA INU USD', 'Symbol': 'SHIB-USD'}
+{'Price': '86.58', 'Name': 'STATERA USD', 'Symbol': 'STA-USD'}
+{'Price': '8.8031', 'Name': 'Uniswap USD', 'Symbol': 'UNI1-USD'}
+{'Price': '0.070495', 'Name': 'TRON USD', 'Symbol': 'TRX-USD'}
+{'Price': '1,724.60', 'Name': 'Lido stETH USD', 'Symbol': 'STETH-USD'}
+{'Price': '23,873.45', 'Name': 'Wrapped Bitcoin USD', 'Symbol': 'WBTC-USD'}
+{'Price': '38.08', 'Name': 'Ethereum Classic USD', 'Symbol': 'ETC-USD'}
+{'Price': '4.7965', 'Name': 'UNUS SED LEO USD', 'Symbol': 'LEO-USD'}
+{'Price': '62.65', 'Name': 'Litecoin USD', 'Symbol': 'LTC-USD'}
+{'Price': '23,883.96', 'Name': 'Bitcoin USD', 'Symbol': 'BTC-USD'}
+{'Price': '1,785.06', 'Name': 'Ethereum USD', 'Symbol': 'ETH-USD'}
+{'Price': '1.0002', 'Name': 'Tether USD', 'Symbol': 'USDT-USD'}
+{'Price': '0.999863', 'Name': 'USD Coin USD', 'Symbol': 'USDC-USD'}
+{'Price': '325.91', 'Name': 'Binance Coin USD', 'Symbol': 'BNB-USD'}
+{'Price': '0.377635', 'Name': 'XRP USD', 'Symbol': 'XRP-USD'}
+{'Price': '0.535270', 'Name': 'Cardano USD', 'Symbol': 'ADA-USD'}
+{'Price': '1.0001', 'Name': 'Binance USD USD', 'Symbol': 'BUSD-USD'}
+{'Price': '42.62', 'Name': 'Solana USD', 'Symbol': 'SOL-USD'}
+{'Price': '9.1763', 'Name': 'Polkadot USD', 'Symbol': 'DOT-USD'}
+{'Price': '0.073306', 'Name': 'Dogecoin USD', 'Symbol': 'DOGE-USD'}
+{'Price': '0.054640', 'Name': 'HEX USD', 'Symbol': 'HEX-USD'}
+{'Price': '28.51', 'Name': 'Avalanche USD', 'Symbol': 'AVAX-USD'}
+{'Price': '1.0001', 'Name': 'Dai USD', 'Symbol': 'DAI-USD'}
+{'Price': '0.927001', 'Name': 'Polygon USD', 'Symbol': 'MATIC-USD'}
+{'Price': '0.070347', 'Name': 'Wrapped TRON USD', 'Symbol': 'WTRX-USD'}
+{'Price': '0.000013', 'Name': 'SHIBA INU USD', 'Symbol': 'SHIB-USD'}
+{'Price': '86.58', 'Name': 'STATERA USD', 'Symbol': 'STA-USD'}
+{'Price': '8.8101', 'Name': 'Uniswap USD', 'Symbol': 'UNI1-USD'}
+{'Price': '0.070513', 'Name': 'TRON USD', 'Symbol': 'TRX-USD'}
+{'Price': '1,724.60', 'Name': 'Lido stETH USD', 'Symbol': 'STETH-USD'}
+{'Price': '23,873.45', 'Name': 'Wrapped Bitcoin USD', 'Symbol': 'WBTC-USD'}
+{'Price': '38.10', 'Name': 'Ethereum Classic USD', 'Symbol': 'ETC-USD'}
+{'Price': '4.7965', 'Name': 'UNUS SED LEO USD', 'Symbol': 'LEO-USD'}
+{'Price': '62.68', 'Name': 'Litecoin USD', 'Symbol': 'LTC-USD'}
+{'Price': '23,883.96', 'Name': 'Bitcoin USD', 'Symbol': 'BTC-USD'}
+{'Price': '1,785.06', 'Name': 'Ethereum USD', 'Symbol': 'ETH-USD'}
+{'Price': '1.0002', 'Name': 'Tether USD', 'Symbol': 'USDT-USD'}
+{'Price': '0.999863', 'Name': 'USD Coin USD', 'Symbol': 'USDC-USD'}
+{'Price': '325.91', 'Name': 'Binance Coin USD', 'Symbol': 'BNB-USD'}
+{'Price': '0.377635', 'Name': 'XRP USD', 'Symbol': 'XRP-USD'}
+{'Price': '0.535270', 'Name': 'Cardano USD', 'Symbol': 'ADA-USD'}
+{'Price': '1.0002', 'Name': 'Binance USD USD', 'Symbol': 'BUSD-USD'}
+{'Price': '42.62', 'Name': 'Solana USD', 'Symbol': 'SOL-USD'}
+{'Price': '9.1763', 'Name': 'Polkadot USD', 'Symbol': 'DOT-USD'}
+{'Price': '0.073306', 'Name': 'Dogecoin USD', 'Symbol': 'DOGE-USD'}
+{'Price': '0.054640', 'Name': 'HEX USD', 'Symbol': 'HEX-USD'}
+{'Price': '28.51', 'Name': 'Avalanche USD', 'Symbol': 'AVAX-USD'}
+{'Price': '1.0001', 'Name': 'Dai USD', 'Symbol': 'DAI-USD'}
+{'Price': '0.927001', 'Name': 'Polygon USD', 'Symbol': 'MATIC-USD'}
+{'Price': '0.070348', 'Name': 'Wrapped TRON USD', 'Symbol': 'WTRX-USD'}
+{'Price': '0.000013', 'Name': 'SHIBA INU USD', 'Symbol': 'SHIB-USD'}
+{'Price': '86.55', 'Name': 'STATERA USD', 'Symbol': 'STA-USD'}
+{'Price': '8.8101', 'Name': 'Uniswap USD', 'Symbol': 'UNI1-USD'}
+{'Price': '0.070513', 'Name': 'TRON USD', 'Symbol': 'TRX-USD'}
+{'Price': '1,724.60', 'Name': 'Lido stETH USD', 'Symbol': 'STETH-USD'}
+{'Price': '23,871.21', 'Name': 'Wrapped Bitcoin USD', 'Symbol': 'WBTC-USD'}
+{'Price': '38.10', 'Name': 'Ethereum Classic USD', 'Symbol': 'ETC-USD'}
+{'Price': '4.7950', 'Name': 'UNUS SED LEO USD', 'Symbol': 'LEO-USD'}
+{'Price': '62.68', 'Name': 'Litecoin USD', 'Symbol': 'LTC-USD'}
+{'Price': '23,848.02', 'Name': 'Bitcoin USD', 'Symbol': 'BTC-USD'}
+{'Price': '1,780.12', 'Name': 'Ethereum USD', 'Symbol': 'ETH-USD'}
+{'Price': '1.0002', 'Name': 'Tether USD', 'Symbol': 'USDT-USD'}
+{'Price': '0.999822', 'Name': 'USD Coin USD', 'Symbol': 'USDC-USD'}
+{'Price': '325.25', 'Name': 'Binance Coin USD', 'Symbol': 'BNB-USD'}
+{'Price': '0.377370', 'Name': 'XRP USD', 'Symbol': 'XRP-USD'}
+{'Price': '0.534073', 'Name': 'Cardano USD', 'Symbol': 'ADA-USD'}
+{'Price': '1.0000', 'Name': 'Binance USD USD', 'Symbol': 'BUSD-USD'}
+{'Price': '42.43', 'Name': 'Solana USD', 'Symbol': 'SOL-USD'}
+{'Price': '9.1406', 'Name': 'Polkadot USD', 'Symbol': 'DOT-USD'}
+{'Price': '0.072835', 'Name': 'Dogecoin USD', 'Symbol': 'DOGE-USD'}
+{'Price': '0.055051', 'Name': 'HEX USD', 'Symbol': 'HEX-USD'}
+{'Price': '28.38', 'Name': 'Avalanche USD', 'Symbol': 'AVAX-USD'}
+{'Price': '0.999692', 'Name': 'Dai USD', 'Symbol': 'DAI-USD'}
+{'Price': '0.923664', 'Name': 'Polygon USD', 'Symbol': 'MATIC-USD'}
+{'Price': '0.070678', 'Name': 'Wrapped TRON USD', 'Symbol': 'WTRX-USD'}
+{'Price': '0.000013', 'Name': 'SHIBA INU USD', 'Symbol': 'SHIB-USD'}
+{'Price': '86.34', 'Name': 'STATERA USD', 'Symbol': 'STA-USD'}
+{'Price': '8.7814', 'Name': 'Uniswap USD', 'Symbol': 'UNI1-USD'}
+{'Price': '0.070654', 'Name': 'TRON USD', 'Symbol': 'TRX-USD'}
+{'Price': '1,719.70', 'Name': 'Lido stETH USD', 'Symbol': 'STETH-USD'}
+{'Price': '23,836.05', 'Name': 'Wrapped Bitcoin USD', 'Symbol': 'WBTC-USD'}
+{'Price': '37.83', 'Name': 'Ethereum Classic USD', 'Symbol': 'ETC-USD'}
+{'Price': '4.7957', 'Name': 'UNUS SED LEO USD', 'Symbol': 'LEO-USD'}
+{'Price': '62.30', 'Name': 'Litecoin USD', 'Symbol': 'LTC-USD'}
+{'Price': '23,851.53', 'Name': 'Bitcoin USD', 'Symbol': 'BTC-USD'}
+{'Price': '1,780.43', 'Name': 'Ethereum USD', 'Symbol': 'ETH-USD'}
+{'Price': '1.0002', 'Name': 'Tether USD', 'Symbol': 'USDT-USD'}
+{'Price': '0.999984', 'Name': 'USD Coin USD', 'Symbol': 'USDC-USD'}
+{'Price': '325.27', 'Name': 'Binance Coin USD', 'Symbol': 'BNB-USD'}
+{'Price': '0.377450', 'Name': 'XRP USD', 'Symbol': 'XRP-USD'}
+{'Price': '0.534343', 'Name': 'Cardano USD', 'Symbol': 'ADA-USD'}
+{'Price': '1.0000', 'Name': 'Binance USD USD', 'Symbol': 'BUSD-USD'}
+{'Price': '42.45', 'Name': 'Solana USD', 'Symbol': 'SOL-USD'}
+{'Price': '9.1434', 'Name': 'Polkadot USD', 'Symbol': 'DOT-USD'}
+{'Price': '0.073071', 'Name': 'Dogecoin USD', 'Symbol': 'DOGE-USD'}
+{'Price': '0.055352', 'Name': 'HEX USD', 'Symbol': 'HEX-USD'}
+{'Price': '28.44', 'Name': 'Avalanche USD', 'Symbol': 'AVAX-USD'}
+{'Price': '0.999605', 'Name': 'Dai USD', 'Symbol': 'DAI-USD'}
+{'Price': '0.924013', 'Name': 'Polygon USD', 'Symbol': 'MATIC-USD'}
+{'Price': '0.070678', 'Name': 'Wrapped TRON USD', 'Symbol': 'WTRX-USD'}
+{'Price': '0.000013', 'Name': 'SHIBA INU USD', 'Symbol': 'SHIB-USD'}
+{'Price': '86.28', 'Name': 'STATERA USD', 'Symbol': 'STA-USD'}
+{'Price': '8.7639', 'Name': 'Uniswap USD', 'Symbol': 'UNI1-USD'}
+{'Price': '0.070643', 'Name': 'TRON USD', 'Symbol': 'TRX-USD'}
+{'Price': '1,719.90', 'Name': 'Lido stETH USD', 'Symbol': 'STETH-USD'}
+{'Price': '23,839.88', 'Name': 'Wrapped Bitcoin USD', 'Symbol': 'WBTC-USD'}
+{'Price': '37.85', 'Name': 'Ethereum Classic USD', 'Symbol': 'ETC-USD'}
+{'Price': '4.7906', 'Name': 'UNUS SED LEO USD', 'Symbol': 'LEO-USD'}
+{'Price': '62.36', 'Name': 'Litecoin USD', 'Symbol': 'LTC-USD'}
+
+{'Price': '$32.98$32.98', 'Brand': 'DOPTIKA', 'Product': "Husband Engraved Bifold Wallet - You Are My Everything - Best Father's Day Birthday, Anniversary Men Gift for Your Love (W04-010-WifHus) Gift Idea for Men"}
+{'Price': '$31.99$31.99', 'Brand': "Husband Engraved Bifold Wallet - You Are My Everything - Best Father's Day Birthday, Anniversary Men Gift for Your Love (W04-010-WifHus) Gift Idea for Men", 'Product': 'Mens S925 Sterling Silver Large Cross Pendant Necklace 24 Inches Silver Chain'}
+{'Price': '$8.79$8.79', 'Brand': 'DAOCHONG', 'Product': "Men's Casual Sandal Slippers Outdoor Indoor Slide for Men"}
+{'Price': '$19.98$19.98', 'Brand': 'Mens S925 Sterling Silver Large Cross Pendant Necklace 24 Inches Silver Chain', 'Product': "Engraved Leather Front Pocket Wallet For Men - I Will Always Love You - Card Case Wallet for Him Father's Day Birthday Gift for Son - Custom Wallet RFID Blocking"}
+{'Price': '$24.00$24.00', 'Brand': 'FUNKYMONKEY', 'Product': 'Boxing Shorts for Men Training Fight Shorts Men MMA BJJ Shorts No Gi'}
+{'Price': '$18.99$18.99', 'Brand': "Men's Casual Sandal Slippers Outdoor Indoor Slide for Men", 'Product': "Men's Soft Flip-Flops Sandals Light Weight Shock Proof Slippers Comfort Thong Flip Flop for Men for Indoor and Outdoor Beach Size 8.5-14"}
+{'Price': '$49.99$49.99', 'Brand': 'DOPTIKA', 'Product': 'SAPPHERO Watches for Men 100M Waterproof Chronograph Mens Watch Analog Quartz Movement Wrist Watch Stainless Steel&Leather Strap'}
+{'Price': '$52.85$52.85', 'Brand': "Engraved Leather Front Pocket Wallet For Men - I Will Always Love You - Card Case Wallet for Him Father's Day Birthday Gift for Son - Custom Wallet RFID Blocking", 'Product': "Men's Waterproof Hiking Boots Work Boots Lightweight & All Day Comfort"}
+{'Price': '$33.99$33.99', 'Brand': 'SOTF', 'Product': "3 Pack Men's Long Sleeve Workout T-Shirts UPF 50+ UV Sun Protection Lightweight Cooling Quick-Dry Athletic Shirt"}
+{'Price': '$12.99$12.99', 'Brand': 'Boxing Shorts for Men Training Fight Shorts Men MMA BJJ Shorts No Gi', 'Product': "Belts For Men, Canvas Elastic Belt, Mens Womens Boys Belt For Father's Day"}
+{'Price': '$37.40$37.40', 'Brand': 'DWG', 'Product': "Men's Spa Slide Slippers with Adjustable Strap and Soft Terry Lining"}
+{'Price': '$35.99$35.99', 'Brand': "Men's Soft Flip-Flops Sandals Light Weight Shock Proof Slippers Comfort Thong Flip Flop for Men for Indoor and Outdoor Beach Size 8.5-14", 'Product': "Men's Classic Desert Shoes Chukka Boots"}
+{'Price': '$26.80$26.80', 'Brand': 'BY BENYAR', 'Product': "Men's Zori Sport Orthotic Slip-On Sandals Flip Flop"}
+{'Price': '$33.70$33.70', 'Brand': 'SAPPHERO Watches for Men 100M Waterproof Chronograph Mens Watch Analog Quartz Movement Wrist Watch Stainless Steel&Leather Strap', 'Product': "Men's Black Leather Belt"}
+{'Price': '$17.99$17.99', 'Brand': 'CC-Los', 'Product': 'Double Prong Leather Belt Heavy Duty Belt for Men, Double Grommet Holes Belt for Pants'}
+{'Price': '$30.70$30.70', 'Brand': "Men's Waterproof Hiking Boots Work Boots Lightweight & All Day Comfort", 'Product': "Men's Big & Tall Classic-fit Wrinkle-Resistant Flat-Front Chino Pant"}
+{'Price': '$12.59$12.59', 'Brand': 'Sykooria', 'Product': "Sweatpants Men's Joggers with Pockets Jogging Pants Sports Leisure Workout Yoga Lightweight Slim Fit"}
+{'Price': '$42.99$42.99', 'Brand': "3 Pack Men's Long Sleeve Workout T-Shirts UPF 50+ UV Sun Protection Lightweight Cooling Quick-Dry Athletic Shirt", 'Product': 'Unisex Waterproof Garden Shoes Womens Rain Boots Mens Car Wash Footwear'}
+{'Price': '$18.99$18.99', 'Brand': 'maikun', 'Product': "Men's Swim Trunks, Quick Dry Board Shorts, Colorful Stripe Swimming Shorts"}
+{'Price': '$22.99$22.99', 'Brand': "Belts For Men, Canvas Elastic Belt, Mens Womens Boys Belt For Father's Day", 'Product': 'Mens Swim Trunks 3D Print Boardshorts Quick Dry Swimsuit Summer Beach Short Bathing Suits Swimwear with Pockets'}
+{'Price': '$18.80$18.80', 'Brand': 'Acorn', 'Product': "Men's Ragg Wool Slipper"}
+{'Price': '$28.49$28.49', 'Brand': "Men's Spa Slide Slippers with Adjustable Strap and Soft Terry Lining", 'Product': "Men's Workout Sport Pants, Athletic Running Jogger Track Pants Casual Sweatpants Trousers with Pockets"}
+{'Price': '$12.99$12.99', 'Brand': 'MERRYLAND', 'Product': 'Mens Belt Plus Size 43inch to 75inch Extra Long Stretch Belts Elastic Braided Woven Waist Belt Black'}
+{'Price': '$13.99$13.99', 'Brand': "Men's Classic Desert Shoes Chukka Boots", 'Product': "Plus Size 39 to 75'' Long Double D Ring Mens Canvas Cloth Web Belt"}
+{'Price': '$41.99$41.99', 'Brand': 'Neat Feat', 'Product': 'Mens Fashion Sneakers Walking Shoes Sports Shoe Vogue Stylish Athletic Walking Running Shoes Casual Sneaker'}
+{'Price': '$13.10$13.10', 'Brand': "Men's Zori Sport Orthotic Slip-On Sandals Flip Flop", 'Product': 'Mcb Max Cushion Combat Over The Calf Socks'}
+{'Price': '$8.48$8.48', 'Brand': 'Fossil', 'Product': "Men's Liga Core Shorts"}
+{'Price': '$36.99$36.99', 'Brand': "Men's Black Leather Belt", 'Product': 'Men Womens Winter Snow Boots Insulated Outdoor Hiking Shoes Fur Lined Warm Boots'}
+{'Price': '$24.00$24.00', 'Brand': 'VONMELLI', 'Product': "Men's Victor Flip-Flop Sandal"}
+{'Price': '$13.99$13.99', 'Brand': 'Double Prong Leather Belt Heavy Duty Belt for Men, Double Grommet Holes Belt for Pants', 'Product': "Men's Premium Basic Tank Top Jersey Casual Shirts (Size Upto 3XL"}
+{'Price': '$34.99$34.99', 'Brand': 'Amazon Essentials', 'Product': 'Polo Shirts for Men Classic Fit 100% Cotton'}
+{'Price': '$17.49$17.49', 'Brand': "Men's Big & Tall Classic-fit Wrinkle-Resistant Flat-Front Chino Pant", 'Product': "Men's Casual Vintage Long Sleeve Raglan Henley Shirts Baseball T-Shirt"}
+{'Price': '$13.29$13.29', 'Brand': 'Björn Swensen', 'Product': 'Designer Ratchet Belt for Men Leather Fashion Adjustable Automatic Buckle Sliding Removable Dress Casual'}
+{'Price': '$18.99$18.99', 'Brand': "Sweatpants Men's Joggers with Pockets Jogging Pants Sports Leisure Workout Yoga Lightweight Slim Fit", 'Product': 'Money Clip Front Pocket Wallet Leather RFID Blocking Strong Magnet Thin Wallet Men'}
+{'Price': '$18.99$18.99', 'Brand': 'TENGTA', 'Product': "Men's Comfy Tweed Memory Foam Slipper with Fuzzy Sherpa Lining"}
+{'Price': '$20.99$20.99', 'Brand': 'Unisex Waterproof Garden Shoes Womens Rain Boots Mens Car Wash Footwear', 'Product': "Men's Plantar Fasciitis & Pain Relief Orthotic Slippers with Arch Support (Size:US 7-US 14)"}
+{'Price': '$12.59$12.59', 'Brand': 'YnimioAOX', 'Product': "Women's & Men's Comfort Memory Foam Slippers Breathable Fuzzy Slip on Clog House Shoes w/Indoor Outdoor Anti-Skid Sole"}
+{'Price': '$31.99$31.99', 'Brand': "Men's Swim Trunks, Quick Dry Board Shorts, Colorful Stripe Swimming Shorts", 'Product': 'Fleece Hoodies for Men Zipper Lightweight Spring Long Sleeve Active Mens Jackets Sports Full Zip Sweatshirts'}
+{'Price': '$30.20$30.20', 'Brand': 'Fanient', 'Product': "Men's Big and Tall Lightweight Water-Resistant Packable Puffer Vest"}
+
+
+{'Price': '$32.98$32.98', 'Brand': 'DOPTIKA', 'Product': "Husband Engraved Bifold Wallet - You Are My Everything - Best Father's Day Birthday, Anniversary Men Gift for Your Love (W04-010-WifHus) Gift Idea for Men"}
+{'Price': '$31.99$31.99', 'Brand': "Husband Engraved Bifold Wallet - You Are My Everything - Best Father's Day Birthday, Anniversary Men Gift for Your Love (W04-010-WifHus) Gift Idea for Men", 'Product': 'Mens S925 Sterling Silver Large Cross Pendant Necklace 24 Inches Silver Chain'}
+{'Price': '$8.79$8.79', 'Brand': 'DAOCHONG', 'Product': "Men's Casual Sandal Slippers Outdoor Indoor Slide for Men"}
+{'Price': '$19.98$19.98', 'Brand': 'Mens S925 Sterling Silver Large Cross Pendant Necklace 24 Inches Silver Chain', 'Product': "Engraved Leather Front Pocket Wallet For Men - I Will Always Love You - Card Case Wallet for Him Father's Day Birthday Gift for Son - Custom Wallet RFID Blocking"}
+{'Price': '$24.00$24.00', 'Brand': 'FUNKYMONKEY', 'Product': 'Boxing Shorts for Men Training Fight Shorts Men MMA BJJ Shorts No Gi'}
+{'Price': '$18.99$18.99', 'Brand': "Men's Casual Sandal Slippers Outdoor Indoor Slide for Men", 'Product': "Men's Soft Flip-Flops Sandals Light Weight Shock Proof Slippers Comfort Thong Flip Flop for Men for Indoor and Outdoor Beach Size 8.5-14"}
+{'Price': '$49.99$49.99', 'Brand': 'DOPTIKA', 'Product': 'SAPPHERO Watches for Men 100M Waterproof Chronograph Mens Watch Analog Quartz Movement Wrist Watch Stainless Steel&Leather Strap'}
+{'Price': '$33.99$33.99', 'Brand': "Engraved Leather Front Pocket Wallet For Men - I Will Always Love You - Card Case Wallet for Him Father's Day Birthday Gift for Son - Custom Wallet RFID Blocking", 'Product': "3 Pack Men's Long Sleeve Workout T-Shirts UPF 50+ UV Sun Protection Lightweight Cooling Quick-Dry Athletic Shirt"}
+{'Price': '$12.99$12.99', 'Brand': 'SOTF', 'Product': "Belts For Men, Canvas Elastic Belt, Mens Womens Boys Belt For Father's Day"}
+{'Price': '$37.40$37.40', 'Brand': 'Boxing Shorts for Men Training Fight Shorts Men MMA BJJ Shorts No Gi', 'Product': "Men's Spa Slide Slippers with Adjustable Strap and Soft Terry Lining"}
+{'Price': '$35.99$35.99', 'Brand': 'DWG', 'Product': "Men's Classic Desert Shoes Chukka Boots"}
+{'Price': '$26.80$26.80', 'Brand': "Men's Soft Flip-Flops Sandals Light Weight Shock Proof Slippers Comfort Thong Flip Flop for Men for Indoor and Outdoor Beach Size 8.5-14", 'Product': "Men's Zori Sport Orthotic Slip-On Sandals Flip Flop"}
+{'Price': '$33.70$33.70', 'Brand': 'BY BENYAR', 'Product': "Men's Black Leather Belt"}
+{'Price': '$17.99$17.99', 'Brand': 'SAPPHERO Watches for Men 100M Waterproof Chronograph Mens Watch Analog Quartz Movement Wrist Watch Stainless Steel&Leather Strap', 'Product': 'Double Prong Leather Belt Heavy Duty Belt for Men, Double Grommet Holes Belt for Pants'}
+{'Price': '$30.70$30.70', 'Brand': 'Sykooria', 'Product': "Men's Big & Tall Classic-fit Wrinkle-Resistant Flat-Front Chino Pant"}
+{'Price': '$12.59$12.59', 'Brand': "3 Pack Men's Long Sleeve Workout T-Shirts UPF 50+ UV Sun Protection Lightweight Cooling Quick-Dry Athletic Shirt", 'Product': "Sweatpants Men's Joggers with Pockets Jogging Pants Sports Leisure Workout Yoga Lightweight Slim Fit"}
+{'Price': '$42.99$42.99', 'Brand': 'maikun', 'Product': 'Unisex Waterproof Garden Shoes Womens Rain Boots Mens Car Wash Footwear'}
+{'Price': '$18.99$18.99', 'Brand': "Belts For Men, Canvas Elastic Belt, Mens Womens Boys Belt For Father's Day", 'Product': "Men's Swim Trunks, Quick Dry Board Shorts, Colorful Stripe Swimming Shorts"}
+{'Price': '$22.99$22.99', 'Brand': 'Acorn', 'Product': 'Mens Swim Trunks 3D Print Boardshorts Quick Dry Swimsuit Summer Beach Short Bathing Suits Swimwear with Pockets'}
+{'Price': '$18.80$18.80', 'Brand': "Men's Spa Slide Slippers with Adjustable Strap and Soft Terry Lining", 'Product': "Men's Ragg Wool Slipper"}
+{'Price': '$28.49$28.49', 'Brand': 'MERRYLAND', 'Product': "Men's Workout Sport Pants, Athletic Running Jogger Track Pants Casual Sweatpants Trousers with Pockets"}
+{'Price': '$12.99$12.99', 'Brand': "Men's Classic Desert Shoes Chukka Boots", 'Product': 'Mens Belt Plus Size 43inch to 75inch Extra Long Stretch Belts Elastic Braided Woven Waist Belt Black'}
+{'Price': '$13.99$13.99', 'Brand': 'Neat Feat', 'Product': "Plus Size 39 to 75'' Long Double D Ring Mens Canvas Cloth Web Belt"}
+{'Price': '$41.99$41.99', 'Brand': "Men's Zori Sport Orthotic Slip-On Sandals Flip Flop", 'Product': 'Mens Fashion Sneakers Walking Shoes Sports Shoe Vogue Stylish Athletic Walking Running Shoes Casual Sneaker'}
+{'Price': '$13.10$13.10', 'Brand': 'Fossil', 'Product': 'Mcb Max Cushion Combat Over The Calf Socks'}
+{'Price': '$8.48$8.48', 'Brand': "Men's Black Leather Belt", 'Product': "Men's Liga Core Shorts"}
+{'Price': '$36.99$36.99', 'Brand': 'VONMELLI', 'Product': 'Men Womens Winter Snow Boots Insulated Outdoor Hiking Shoes Fur Lined Warm Boots'}
+{'Price': '$24.00$24.00', 'Brand': 'Double Prong Leather Belt Heavy Duty Belt for Men, Double Grommet Holes Belt for Pants', 'Product': "Men's Victor Flip-Flop Sandal"}
+{'Price': '$13.99$13.99', 'Brand': 'Amazon Essentials', 'Product': "Men's Premium Basic Tank Top Jersey Casual Shirts (Size Upto 3XL"}
+{'Price': '$34.99$34.99', 'Brand': "Men's Big & Tall Classic-fit Wrinkle-Resistant Flat-Front Chino Pant", 'Product': 'Polo Shirts for Men Classic Fit 100% Cotton'}
+{'Price': '$17.49$17.49', 'Brand': 'Björn Swensen', 'Product': "Men's Casual Vintage Long Sleeve Raglan Henley Shirts Baseball T-Shirt"}
+{'Price': '$13.29$13.29', 'Brand': "Sweatpants Men's Joggers with Pockets Jogging Pants Sports Leisure Workout Yoga Lightweight Slim Fit", 'Product': 'Designer Ratchet Belt for Men Leather Fashion Adjustable Automatic Buckle Sliding Removable Dress Casual'}
+{'Price': '$18.99$18.99', 'Brand': 'TENGTA', 'Product': 'Money Clip Front Pocket Wallet Leather RFID Blocking Strong Magnet Thin Wallet Men'}
+{'Price': '$18.99$18.99', 'Brand': 'Unisex Waterproof Garden Shoes Womens Rain Boots Mens Car Wash Footwear', 'Product': "Men's Comfy Tweed Memory Foam Slipper with Fuzzy Sherpa Lining"}
+{'Price': '$20.99$20.99', 'Brand': 'YnimioAOX', 'Product': "Men's Plantar Fasciitis & Pain Relief Orthotic Slippers with Arch Support (Size:US 7-US 14)"}
+{'Price': '$12.59$12.59', 'Brand': "Men's Swim Trunks, Quick Dry Board Shorts, Colorful Stripe Swimming Shorts", 'Product': "Women's & Men's Comfort Memory Foam Slippers Breathable Fuzzy Slip on Clog House Shoes w/Indoor Outdoor Anti-Skid Sole"}
+
+
+{'Price': '$32.98$32.98', 'Brand': 'DOPTIKA', 'Product': "Husband Engraved Bifold Wallet - You Are My Everything - Best Father's Day Birthday, Anniversary Men Gift for Your Love (W04-010-WifHus) Gift Idea for Men"}
+{'Price': '$31.99$31.99', 'Brand': "Husband Engraved Bifold Wallet - You Are My Everything - Best Father's Day Birthday, Anniversary Men Gift for Your Love (W04-010-WifHus) Gift Idea for Men", 'Product': 'Mens S925 Sterling Silver Large Cross Pendant Necklace 24 Inches Silver Chain'}
+{'Price': '$8.79$8.79', 'Brand': 'DAOCHONG', 'Product': "Men's Casual Sandal Slippers Outdoor Indoor Slide for Men"}
+{'Price': '$19.98$19.98', 'Brand': 'Mens S925 Sterling Silver Large Cross Pendant Necklace 24 Inches Silver Chain', 'Product': "Engraved Leather Front Pocket Wallet For Men - I Will Always Love You - Card Case Wallet for Him Father's Day Birthday Gift for Son - Custom Wallet RFID Blocking"}
+{'Price': '$24.00$24.00', 'Brand': 'FUNKYMONKEY', 'Product': 'Boxing Shorts for Men Training Fight Shorts Men MMA BJJ Shorts No Gi'}
+{'Price': '$18.99$18.99', 'Brand': "Men's Casual Sandal Slippers Outdoor Indoor Slide for Men", 'Product': "Men's Soft Flip-Flops Sandals Light Weight Shock Proof Slippers Comfort Thong Flip Flop for Men for Indoor and Outdoor Beach Size 8.5-14"}
+{'Price': '$49.99$49.99', 'Brand': 'DOPTIKA', 'Product': 'SAPPHERO Watches for Men 100M Waterproof Chronograph Mens Watch Analog Quartz Movement Wrist Watch Stainless Steel&Leather Strap'}
+{'Price': '$52.85$52.85', 'Brand': "Engraved Leather Front Pocket Wallet For Men - I Will Always Love You - Card Case Wallet for Him Father's Day Birthday Gift for Son - Custom Wallet RFID Blocking", 'Product': "Men's Waterproof Hiking Boots Work Boots Lightweight & All Day Comfort"}
+{'Price': '$33.99$33.99', 'Brand': 'SOTF', 'Product': "3 Pack Men's Long Sleeve Workout T-Shirts UPF 50+ UV Sun Protection Lightweight Cooling Quick-Dry Athletic Shirt"}
+{'Price': '$12.99$12.99', 'Brand': 'Boxing Shorts for Men Training Fight Shorts Men MMA BJJ Shorts No Gi', 'Product': "Belts For Men, Canvas Elastic Belt, Mens Womens Boys Belt For Father's Day"}
+{'Price': '$37.40$37.40', 'Brand': 'DWG', 'Product': "Men's Spa Slide Slippers with Adjustable Strap and Soft Terry Lining"}
+{'Price': '$35.99$35.99', 'Brand': "Men's Soft Flip-Flops Sandals Light Weight Shock Proof Slippers Comfort Thong Flip Flop for Men for Indoor and Outdoor Beach Size 8.5-14", 'Product': "Men's Classic Desert Shoes Chukka Boots"}
+{'Price': '$26.80$26.80', 'Brand': 'BY BENYAR', 'Product': "Men's Zori Sport Orthotic Slip-On Sandals Flip Flop"}
+{'Price': '$33.70$33.70', 'Brand': 'SAPPHERO Watches for Men 100M Waterproof Chronograph Mens Watch Analog Quartz Movement Wrist Watch Stainless Steel&Leather Strap', 'Product': "Men's Black Leather Belt"}
+{'Price': '$17.99$17.99', 'Brand': 'CC-Los', 'Product': 'Double Prong Leather Belt Heavy Duty Belt for Men, Double Grommet Holes Belt for Pants'}
+{'Price': '$30.70$30.70', 'Brand': "Men's Waterproof Hiking Boots Work Boots Lightweight & All Day Comfort", 'Product': "Men's Big & Tall Classic-fit Wrinkle-Resistant Flat-Front Chino Pant"}
+{'Price': '$12.59$12.59', 'Brand': 'Sykooria', 'Product': "Sweatpants Men's Joggers with Pockets Jogging Pants Sports Leisure Workout Yoga Lightweight Slim Fit"}
+{'Price': '$42.99$42.99', 'Brand': "3 Pack Men's Long Sleeve Workout T-Shirts UPF 50+ UV Sun Protection Lightweight Cooling Quick-Dry Athletic Shirt", 'Product': 'Unisex Waterproof Garden Shoes Womens Rain Boots Mens Car Wash Footwear'}
+{'Price': '$18.99$18.99', 'Brand': 'maikun', 'Product': "Men's Swim Trunks, Quick Dry Board Shorts, Colorful Stripe Swimming Shorts"}
+{'Price': '$22.99$22.99', 'Brand': "Belts For Men, Canvas Elastic Belt, Mens Womens Boys Belt For Father's Day", 'Product': 'Mens Swim Trunks 3D Print Boardshorts Quick Dry Swimsuit Summer Beach Short Bathing Suits Swimwear with Pockets'}
+{'Price': '$18.80$18.80', 'Brand': 'Acorn', 'Product': "Men's Ragg Wool Slipper"}
+{'Price': '$28.49$28.49', 'Brand': "Men's Spa Slide Slippers with Adjustable Strap and Soft Terry Lining", 'Product': "Men's Workout Sport Pants, Athletic Running Jogger Track Pants Casual Sweatpants Trousers with Pockets"}
+{'Price': '$12.99$12.99', 'Brand': 'MERRYLAND', 'Product': 'Mens Belt Plus Size 43inch to 75inch Extra Long Stretch Belts Elastic Braided Woven Waist Belt Black'}
+{'Price': '$13.99$13.99', 'Brand': "Men's Classic Desert Shoes Chukka Boots", 'Product': "Plus Size 39 to 75'' Long Double D Ring Mens Canvas Cloth Web Belt"}
+{'Price': '$41.99$41.99', 'Brand': 'Neat Feat', 'Product': 'Mens Fashion Sneakers Walking Shoes Sports Shoe Vogue Stylish Athletic Walking Running Shoes Casual Sneaker'}
+{'Price': '$13.10$13.10', 'Brand': "Men's Zori Sport Orthotic Slip-On Sandals Flip Flop", 'Product': 'Mcb Max Cushion Combat Over The Calf Socks'}
+{'Price': '$8.48$8.48', 'Brand': 'Fossil', 'Product': "Men's Liga Core Shorts"}
+{'Price': '$36.99$36.99', 'Brand': "Men's Black Leather Belt", 'Product': 'Men Womens Winter Snow Boots Insulated Outdoor Hiking Shoes Fur Lined Warm Boots'}
+{'Price': '$13.99$13.99', 'Brand': 'VONMELLI', 'Product': "Men's Premium Basic Tank Top Jersey Casual Shirts (Size Upto 3XL"}
+{'Price': '$34.99$34.99', 'Brand': 'Double Prong Leather Belt Heavy Duty Belt for Men, Double Grommet Holes Belt for Pants', 'Product': 'Polo Shirts for Men Classic Fit 100% Cotton'}
+{'Price': '$17.49$17.49', 'Brand': 'Amazon Essentials', 'Product': "Men's Casual Vintage Long Sleeve Raglan Henley Shirts Baseball T-Shirt"}
+{'Price': '$13.29$13.29', 'Brand': "Men's Big & Tall Classic-fit Wrinkle-Resistant Flat-Front Chino Pant", 'Product': 'Designer Ratchet Belt for Men Leather Fashion Adjustable Automatic Buckle Sliding Removable Dress Casual'}
+{'Price': '$18.99$18.99', 'Brand': 'Björn Swensen', 'Product': 'Money Clip Front Pocket Wallet Leather RFID Blocking Strong Magnet Thin Wallet Men'}
+{'Price': '$18.99$18.99', 'Brand': "Sweatpants Men's Joggers with Pockets Jogging Pants Sports Leisure Workout Yoga Lightweight Slim Fit", 'Product': "Men's Comfy Tweed Memory Foam Slipper with Fuzzy Sherpa Lining"}
+{'Price': '$20.99$20.99', 'Brand': 'TENGTA', 'Product': "Men's Plantar Fasciitis & Pain Relief Orthotic Slippers with Arch Support (Size:US 7-US 14)"}
+{'Price': '$12.59$12.59', 'Brand': 'Unisex Waterproof Garden Shoes Womens Rain Boots Mens Car Wash Footwear', 'Product': "Women's & Men's Comfort Memory Foam Slippers Breathable Fuzzy Slip on Clog House Shoes w/Indoor Outdoor Anti-Skid Sole"}
+{'Price': '$31.99$31.99', 'Brand': 'YnimioAOX', 'Product': 'Fleece Hoodies for Men Zipper Lightweight Spring Long Sleeve Active Mens Jackets Sports Full Zip Sweatshirts'}
+{'Price': '$30.20$30.20', 'Brand': "Men's Swim Trunks, Quick Dry Board Shorts, Colorful Stripe Swimming Shorts", 'Product': "Men's Big and Tall Lightweight Water-Resistant Packable Puffer Vest"}
+
+
+{'Product': "Husband Engraved Bifold Wallet - You Are My Everything - Best Father's Day Birthday, Anniversary Men Gift for Your Love (W04-010-WifHus) Gift Idea for Men", 'Brand': 'DOPTIKA', 'Price': '$32.98$32.98'}
+{'Product': 'Mens S925 Sterling Silver Large Cross Pendant Necklace 24 Inches Silver Chain', 'Brand': "Husband Engraved Bifold Wallet - You Are My Everything - Best Father's Day Birthday, Anniversary Men Gift for Your Love (W04-010-WifHus) Gift Idea for Men", 'Price': '$31.99$31.99'}
+{'Product': "Men's Casual Sandal Slippers Outdoor Indoor Slide for Men", 'Brand': 'DAOCHONG', 'Price': '$8.79$8.79'}
+{'Product': "Engraved Leather Front Pocket Wallet For Men - I Will Always Love You - Card Case Wallet for Him Father's Day Birthday Gift for Son - Custom Wallet RFID Blocking", 'Brand': 'Mens S925 Sterling Silver Large Cross Pendant Necklace 24 Inches Silver Chain', 'Price': '$19.98$19.98'}
+{'Product': 'Boxing Shorts for Men Training Fight Shorts Men MMA BJJ Shorts No Gi', 'Brand': 'FUNKYMONKEY', 'Price': '$24.00$24.00'}
+{'Product': "Men's Soft Flip-Flops Sandals Light Weight Shock Proof Slippers Comfort Thong Flip Flop for Men for Indoor and Outdoor Beach Size 8.5-14", 'Brand': "Men's Casual Sandal Slippers Outdoor Indoor Slide for Men", 'Price': '$18.99$18.99'}
+{'Product': 'SAPPHERO Watches for Men 100M Waterproof Chronograph Mens Watch Analog Quartz Movement Wrist Watch Stainless Steel&Leather Strap', 'Brand': 'DOPTIKA', 'Price': '$49.99$49.99'}
+{'Product': "Men's Waterproof Hiking Boots Work Boots Lightweight & All Day Comfort", 'Brand': "Engraved Leather Front Pocket Wallet For Men - I Will Always Love You - Card Case Wallet for Him Father's Day Birthday Gift for Son - Custom Wallet RFID Blocking", 'Price': '$52.85$52.85'}
+{'Product': "3 Pack Men's Long Sleeve Workout T-Shirts UPF 50+ UV Sun Protection Lightweight Cooling Quick-Dry Athletic Shirt", 'Brand': 'SOTF', 'Price': '$33.99$33.99'}
+{'Product': "Belts For Men, Canvas Elastic Belt, Mens Womens Boys Belt For Father's Day", 'Brand': 'Boxing Shorts for Men Training Fight Shorts Men MMA BJJ Shorts No Gi', 'Price': '$12.99$12.99'}
+{'Product': "Men's Spa Slide Slippers with Adjustable Strap and Soft Terry Lining", 'Brand': 'DWG', 'Price': '$37.40$37.40'}
+{'Product': "Men's Classic Desert Shoes Chukka Boots", 'Brand': "Men's Soft Flip-Flops Sandals Light Weight Shock Proof Slippers Comfort Thong Flip Flop for Men for Indoor and Outdoor Beach Size 8.5-14", 'Price': '$35.99$35.99'}
+{'Product': "Men's Zori Sport Orthotic Slip-On Sandals Flip Flop", 'Brand': 'BY BENYAR', 'Price': '$26.80$26.80'}
+{'Product': "Men's Black Leather Belt", 'Brand': 'SAPPHERO Watches for Men 100M Waterproof Chronograph Mens Watch Analog Quartz Movement Wrist Watch Stainless Steel&Leather Strap', 'Price': '$33.70$33.70'}
+{'Product': 'Double Prong Leather Belt Heavy Duty Belt for Men, Double Grommet Holes Belt for Pants', 'Brand': 'CC-Los', 'Price': '$17.99$17.99'}
+{'Product': "Men's Big & Tall Classic-fit Wrinkle-Resistant Flat-Front Chino Pant", 'Brand': "Men's Waterproof Hiking Boots Work Boots Lightweight & All Day Comfort", 'Price': '$30.70$30.70'}
+{'Product': "Sweatpants Men's Joggers with Pockets Jogging Pants Sports Leisure Workout Yoga Lightweight Slim Fit", 'Brand': 'Sykooria', 'Price': '$12.59$12.59'}
+{'Product': 'Unisex Waterproof Garden Shoes Womens Rain Boots Mens Car Wash Footwear', 'Brand': "3 Pack Men's Long Sleeve Workout T-Shirts UPF 50+ UV Sun Protection Lightweight Cooling Quick-Dry Athletic Shirt", 'Price': '$42.99$42.99'}
+{'Product': "Men's Swim Trunks, Quick Dry Board Shorts, Colorful Stripe Swimming Shorts", 'Brand': 'maikun', 'Price': '$18.99$18.99'}
+{'Product': 'Mens Swim Trunks 3D Print Boardshorts Quick Dry Swimsuit Summer Beach Short Bathing Suits Swimwear with Pockets', 'Brand': "Belts For Men, Canvas Elastic Belt, Mens Womens Boys Belt For Father's Day", 'Price': '$22.99$22.99'}
+{'Product': "Men's Ragg Wool Slipper", 'Brand': 'Acorn', 'Price': '$18.80$18.80'}
+{'Product': "Men's Workout Sport Pants, Athletic Running Jogger Track Pants Casual Sweatpants Trousers with Pockets", 'Brand': "Men's Spa Slide Slippers with Adjustable Strap and Soft Terry Lining", 'Price': '$28.49$28.49'}
+{'Product': 'Mens Belt Plus Size 43inch to 75inch Extra Long Stretch Belts Elastic Braided Woven Waist Belt Black', 'Brand': 'MERRYLAND', 'Price': '$12.99$12.99'}
+{'Product': "Plus Size 39 to 75'' Long Double D Ring Mens Canvas Cloth Web Belt", 'Brand': "Men's Classic Desert Shoes Chukka Boots", 'Price': '$13.99$13.99'}
+{'Product': 'Mens Fashion Sneakers Walking Shoes Sports Shoe Vogue Stylish Athletic Walking Running Shoes Casual Sneaker', 'Brand': 'Neat Feat', 'Price': '$41.99$41.99'}
+{'Product': 'Mcb Max Cushion Combat Over The Calf Socks', 'Brand': "Men's Zori Sport Orthotic Slip-On Sandals Flip Flop", 'Price': '$13.10$13.10'}
+{'Product': "Men's Liga Core Shorts", 'Brand': 'Fossil', 'Price': '$8.48$8.48'}
+{'Product': 'Men Womens Winter Snow Boots Insulated Outdoor Hiking Shoes Fur Lined Warm Boots', 'Brand': "Men's Black Leather Belt", 'Price': '$36.99$36.99'}
+{'Product': "Men's Victor Flip-Flop Sandal", 'Brand': 'VONMELLI', 'Price': '$24.00$24.00'}
+{'Product': "Men's Premium Basic Tank Top Jersey Casual Shirts (Size Upto 3XL", 'Brand': 'Double Prong Leather Belt Heavy Duty Belt for Men, Double Grommet Holes Belt for Pants', 'Price': '$13.99$13.99'}
+{'Product': 'Polo Shirts for Men Classic Fit 100% Cotton', 'Brand': 'Amazon Essentials', 'Price': '$34.99$34.99'}
+{'Product': "Men's Casual Vintage Long Sleeve Raglan Henley Shirts Baseball T-Shirt", 'Brand': "Men's Big & Tall Classic-fit Wrinkle-Resistant Flat-Front Chino Pant", 'Price': '$17.49$17.49'}
+{'Product': 'Designer Ratchet Belt for Men Leather Fashion Adjustable Automatic Buckle Sliding Removable Dress Casual', 'Brand': 'Björn Swensen', 'Price': '$13.29$13.29'}
+{'Product': 'Money Clip Front Pocket Wallet Leather RFID Blocking Strong Magnet Thin Wallet Men', 'Brand': "Sweatpants Men's Joggers with Pockets Jogging Pants Sports Leisure Workout Yoga Lightweight Slim Fit", 'Price': '$18.99$18.99'}
+{'Product': "Men's Comfy Tweed Memory Foam Slipper with Fuzzy Sherpa Lining", 'Brand': 'TENGTA', 'Price': '$18.99$18.99'}
+{'Product': "Men's Plantar Fasciitis & Pain Relief Orthotic Slippers with Arch Support (Size:US 7-US 14)", 'Brand': 'Unisex Waterproof Garden Shoes Womens Rain Boots Mens Car Wash Footwear', 'Price': '$20.99$20.99'}
+{'Product': "Women's & Men's Comfort Memory Foam Slippers Breathable Fuzzy Slip on Clog House Shoes w/Indoor Outdoor Anti-Skid Sole", 'Brand': 'YnimioAOX', 'Price': '$12.59$12.59'}
+{'Product': 'Fleece Hoodies for Men Zipper Lightweight Spring Long Sleeve Active Mens Jackets Sports Full Zip Sweatshirts', 'Brand': "Men's Swim Trunks, Quick Dry Board Shorts, Colorful Stripe Swimming Shorts", 'Price': '$31.99$31.99'}
+{'Product': "Men's Big and Tall Lightweight Water-Resistant Packable Puffer Vest", 'Brand': 'Fanient', 'Price': '$30.20$30.20'}

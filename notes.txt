@@ -22,6 +22,23 @@ for (let element of all) {
 
 'aceptaOption:0'
 
+function getClassMembers(className) {
+    let HtmlArray = document.getElementsByClassName(className)
+    let ObjectsArray = []
+    for (let item of HtmlArray) {
+        ObjectsArray.push(item)
+    }
+    let ItemsArray = ObjectsArray.map(item => item.innerHTML)
+    return ItemsArray
+}
+
+
+
+scripts = {
+            getClassMembers : 'asdf',
+            findElementPositions : '',
+          }
+
 
 
 
@@ -83,3 +100,97 @@ def createDictionaryFromDataFrame(dataFrame):
         i+=1
     return dict
 
+
+''' Yahoo Finance Crypto
+    https://finance.yahoo.com/cryptocurrencies/
+'''
+    
+''' Amazon
+[soup, 'span', 'class', 'a-size-base-plus a-color-base a-text-normal', True, 'Product'], 
+[soup, 'span', 'class', 'a-size-base-plus a-color-base', True, 'Brand'],
+[soup, 'span', 'class', 'a-price', False, 'Price'],
+ '''
+
+'''
+args_list = {
+                1: [soup, 'td', 'aria-label', 'Symbol', False], 
+                2: [soup, 'td', 'aria-label', 'Price', True], 
+                3: [soup, 'td', 'aria-label', 'Name', False]
+            }
+'''
+
+
+'''
+def getObjectsByClass(soup, tag, className):
+    Objects = soup.findAll(lambda tag: tag.name == 'tag' and tag.get('class') == [className])
+    return Objects 
+
+
+def getObjectsByTag(soup, tag):
+    Objects = soup.find_all(tag)
+    return Objects
+
+
+def filterInfoByAttribute(listOfObjects, attribute):
+    for object in listOfObjects:
+        yield object.attrs[attribute]
+
+
+def getInnerTextForEachObject(listOfObjects):
+    for object in listOfObjects:
+        for segment in object.children:
+            yield segment.text + '
+
+
+def createJsonWithDelimiter(delimiter, list):
+    i = 0
+    dict = {}
+    for item in list:
+        if item[0] == delimiter:
+            newList = []
+            i+=1
+        newList.append(item)
+        dict[i] = newList
+    return dict
+
+
+def getAttributes(tags):
+    for tag in tags:   
+        for subTag in tag: 
+            try: 
+                yield subTag.attrs 
+            except: 
+                pass 
+
+
+def produce_tags(parsed_html, tag_type, tag_attr, tag_name):
+    needed_tags = parsed_html.findAll(lambda tag: tag.name == f'{tag_type}' and tag.get(f'{tag_attr}') == [f'{tag_name}'])
+    for needed_tag in needed_tags:
+        yield needed_tag.text
+'''
+
+
+def writeDictToFile(data, fileName):
+    dataFile = open(fileName, "a", encoding='utf-8')
+    dataFile.write("{\n")
+    for k in data.keys():        
+        dataFile.write(F"'{k}': '{data[k]}',\n")  # add comma at end of line
+    dataFile.write("}\n\n")
+    dataFile.close()
+    return print('Wrote Dict to File')
+
+
+    def writeJSONstringByLine(data, fileName):
+    dataFile = open(fileName, "a", encoding='utf-8')
+    string_list = data.split(',')
+    for string in string_list:
+        dataFile.write(string + '\n')
+        dataFile.close
+    return print('Wrote JSON to File')
+
+    # yields info in a dictionary along with the column name so that the JSON can be converted to excel easily
+# def getAllInnerText(listOfObjects, columnName):
+#     for object in listOfObjects:
+#         dict = {}
+#         dict[columnName] = object.text
+#         yield dict

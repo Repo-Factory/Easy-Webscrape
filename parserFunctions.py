@@ -1,5 +1,4 @@
 import bs4
-from collections import ChainMap
 
 
 def getSoup(responseText):
@@ -15,29 +14,58 @@ def selectTags(soup, tag, attr, name, contains):
     return tags
 
 
-# yields info in a dictionary along with the column name so that the JSON can be converted to excel easily
-def getAllInnerText(listOfObjects, columnName):
+def getAllInnerText(listOfObjects):
     for object in listOfObjects:
+        dirtyText = object.text
+        cleanText = cleanWhiteSpace(dirtyText)
+        yield cleanText
+
+
+def cleanWhiteSpace(text):
+    text = text.replace('\n', '')
+    text = ' '.join(text.split())
+    return text
+
+
+def addCategoryNameToText(textObjects, columnName):
+    for object in textObjects:
         dict = {}
-        dict[columnName] = object.text
+        dict[columnName] = object
         yield dict
 
 
 def getItemsTextByTags(soup, tag, attr, name, contains, columnName):
     tags = selectTags(soup=soup, tag=tag, attr=attr, name=name, contains=contains)
-    items = getAllInnerText(tags, columnName)
+    text = getAllInnerText(tags)
+    items = addCategoryNameToText(text, columnName)
     return items
 
 
+def formatItems(items):
+    for item in items:
+        if items.index(item) % 2 == 0:
+            items.pop(item)
+    return items
+
+
+def listGeneratorsText(soup, *args_list):
+    generators = getAllTagTextGenerators(soup, *args_list)
+    for generator in generators:
+        i = 0
+        for item in generator:
+            print(f'{i}: {item}') 
+            i += 1
+
+
 # helper
-def getGeneratorsFromTags(*tagArrayArguments):
+def getAllTagTextGenerators(soup, *tagArrayArguments):
     for tagArrayArgument in tagArrayArguments:
         args_list = tagArrayArgument
-        yield getItemsTextByTags(*args_list)
+        yield getItemsTextByTags(soup, *args_list)
 
 
 def createZippedDataFrameFromTags(soup, *args_list):
-    generators = getGeneratorsFromTags(*args_list)
+    generators = getAllTagTextGenerators(soup, *args_list)
     generatorList = []
     for generator in generators:
         generatorList.append(generator)
@@ -71,69 +99,17 @@ def createListFromWrapperObject(wrapperObject):
 
 def mergeDictionariesInList(listOfDictionaries): #listOfListOfDictionaries all rows in generator
     for dictionary in listOfDictionaries: # one row of dictionaries {}{}{}
-        mergedDict = dict(ChainMap(*dictionary))
+        mergedDict = dict(merge_dicts(*dictionary))
         yield mergedDict
 
 
+def merge_dicts(*dict_args):
+    result = {}
+    for dictionary in dict_args:
+        result.update(dictionary)
+    return result
 
 
 
 
 
-'''
-args_list = {
-                1: [soup, 'td', 'aria-label', 'Symbol', False], 
-                2: [soup, 'td', 'aria-label', 'Price', True], 
-                3: [soup, 'td', 'aria-label', 'Name', False]
-            }
-'''
-
-
-'''
-def getObjectsByClass(soup, tag, className):
-    Objects = soup.findAll(lambda tag: tag.name == 'tag' and tag.get('class') == [className])
-    return Objects 
-
-
-def getObjectsByTag(soup, tag):
-    Objects = soup.find_all(tag)
-    return Objects
-
-
-def filterInfoByAttribute(listOfObjects, attribute):
-    for object in listOfObjects:
-        yield object.attrs[attribute]
-
-
-def getInnerTextForEachObject(listOfObjects):
-    for object in listOfObjects:
-        for segment in object.children:
-            yield segment.text + '
-
-
-def createJsonWithDelimiter(delimiter, list):
-    i = 0
-    dict = {}
-    for item in list:
-        if item[0] == delimiter:
-            newList = []
-            i+=1
-        newList.append(item)
-        dict[i] = newList
-    return dict
-
-
-def getAttributes(tags):
-    for tag in tags:   
-        for subTag in tag: 
-            try: 
-                yield subTag.attrs 
-            except: 
-                pass 
-
-
-def produce_tags(parsed_html, tag_type, tag_attr, tag_name):
-    needed_tags = parsed_html.findAll(lambda tag: tag.name == f'{tag_type}' and tag.get(f'{tag_attr}') == [f'{tag_name}'])
-    for needed_tag in needed_tags:
-        yield needed_tag.text
-'''
