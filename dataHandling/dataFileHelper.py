@@ -10,9 +10,9 @@ def openFile(fileName, overRide):
     return dataFile
 
 
-def writeToFile(data, fileName, overRide):
-    dataFile = openFile(fileName, overRide)
-    dataFile.write('\n' + data)
+def writeToJSONFile(data, fileName, overRide):
+    dataFile = open(fileName, 'w', encoding='utf-8')
+    dataFile.write(data)
     dataFile.close
     return print(f'Wrote to File {fileName}')
 
@@ -28,8 +28,8 @@ def writeToFileFormatted(data, fileName, overRide):
 
 
 def writeToFiles(data, scrapeName, overRide):
-    writeToFileFormatted(data, f'.\\dataFiles\\{scrapeName}.txt', overRide)
     JSON = json.dumps(data)
-    writeToFile(JSON, f'.\\dataFiles\\{scrapeName}.json', overRide)
+    writeToJSONFile(JSON, f'.\\dataFiles\\{scrapeName}.json', overRide)
+    writeToFileFormatted(data, f'.\\dataFiles\\{scrapeName}.txt', overRide)
     JSONtoCSV(f'.\\dataFiles\\{scrapeName}.json', f'.\\dataFiles\\{scrapeName}.csv')
 

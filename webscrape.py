@@ -38,7 +38,7 @@ class ScraperSession:
 
 
 def scrape(*args_list, url, requireSelenium, scrapeName, overRide, fullScrape):
-    
+
     """
     Web scrape function takes in tags and certain configuration parameters to aid in webscraping and produce an excel 
     sheet with the desired information, each tag type will be its own column
@@ -75,15 +75,19 @@ def scrape(*args_list, url, requireSelenium, scrapeName, overRide, fullScrape):
         listGeneratorsText(soup, *args_list)
 
 
-scrape(        
-        ['td', 'aria-label', 'Symbol', False, 'Symbol'], 
-        ['td', 'aria-label', 'Name', False, 'Name'],
-        ['td', 'aria-label', 'Price', True, 'Price'], 
-        url='https://finance.yahoo.com/cryptocurrencies/',
-        requireSelenium=False,
-        scrapeName='crypto',
-        overRide=True,
-        fullScrape=True,
-     )
+"""EXAMPLE"""
+
+
+if __name__ == '__main__':
+    scrape(        
+            ['td', 'aria-label', 'Symbol', False, 'Symbol'], 
+            ['td', 'aria-label', 'Name', False, 'Name'],
+            ['td', 'aria-label', 'Price', True, 'Price'], 
+            url='https://finance.yahoo.com/cryptocurrencies/',
+            requireSelenium=False,
+            scrapeName='crypto',
+            overRide=False,
+            fullScrape=True,
+        )
 
 
