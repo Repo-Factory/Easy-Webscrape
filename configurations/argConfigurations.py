@@ -5,7 +5,6 @@
         requireSelenium=True,
         scrapeName='kohls',
         overRide=True,
-        # formatFunction=kohlsFormat,
         fullScrape=False
 
 '''
@@ -17,6 +16,9 @@
         ['td', 'aria-label', 'Price', True, 'Price'], 
         url='https://finance.yahoo.com/cryptocurrencies/',
         requireSelenium=False,
+        scrapeName=crypto,
+        overRide=True,
+        fullScrape=True,
 '''
 
 
@@ -30,3 +32,27 @@
         overRide=True,
         fullScrape=True
  '''
+
+
+''' HanziDb
+        ['a', 'href', "/character/", True, 'Character'], 
+        ['span', 'style', "color;", True, 'Pinyin'],
+        ['span', 'class', "smmr", False, 'Definition'],
+        url = 'http://hanzidb.org/character-list',
+        requireSelenium=False,
+        scrapeName='chinese',
+        overRide=True,
+        fullScrape=True
+'''
+
+
+''' Default
+        [],
+        [],
+        [],
+        url= 'https://scrape.com',
+        requireSelenium=True,
+        scrapeName='scrape',
+        overRide=True,
+        fullScrape=True
+'''
